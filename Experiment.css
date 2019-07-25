@@ -1,0 +1,12 @@
+
+*{
+    margin:0;
+    padding: 0;
+}
+
+.left-box {background-color: aqua; float:left; width:75%; }
+
+.right-box {background-color:green; float:right; width:25%; }
+
+.bottom-box {background-color:pink; float:bottom; width:100%; }
+
