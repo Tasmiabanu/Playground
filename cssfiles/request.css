@@ -1,0 +1,19 @@
+.flex-container{
+      background-color: lightblue;
+      padding: 40px;
+      display: flex;
+      align-items:flex-end;
+      justify-content:flex-end;
+     }
+.flex-info{
+      display:flex;
+      align-items:flex-end;
+      justify-content:flex-end;
+      }
+
+.flex-lines{
+    display:flex;
+    align-items:flex-center;
+    float:left;
+    justify-content:space-around;
+    }
