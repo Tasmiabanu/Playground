@@ -26,7 +26,7 @@ img{
       justify-content:space-between;
       height:80px;
  margin:auto;
- width:95%;
+ width:97%;
 }
 .input-box
 {
@@ -65,7 +65,8 @@ width: 200px;
       font-size: 10px;
       height:80px;
  margin:auto;
- width:95%;
+ width:97%;
+ 
 }
 
 .flex-firstlayer{
@@ -76,7 +77,8 @@ width: 200px;
       font-size: 15px;
       height:80px;
  margin:auto;
- width:95%;
+ width:97%;
+ border: 1px solid lightgrey;
  justify-content:space-between;
 }
 .flex-secondlayer{
@@ -87,7 +89,7 @@ width: 200px;
       font-size: 15px;
       height:80px;
       margin:auto;
- width:95%;
+ width:97%;
  justify-content:space-between;
  
 }
