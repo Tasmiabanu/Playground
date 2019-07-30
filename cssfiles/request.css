@@ -1,19 +1,93 @@
-.flex-container{
-      background-color: lightblue;
-      padding: 40px;
-      display: flex;
-      align-items:flex-end;
-      justify-content:flex-end;
-     }
-.flex-info{
-      display:flex;
-      align-items:flex-end;
-      justify-content:flex-end;
-      }
 
-.flex-lines{
-    display:flex;
-    align-items:flex-center;
-    float:left;
-    justify-content:space-around;
-    }
+.flex-number{
+      background-color: white;
+      display:flex;
+      align-items:center;
+     height: 40px;
+      float:left;
+      justify-content:space-between;
+      flex-direction: row;
+      }
+.flex-container{
+      background-color: white;
+      display:flex;
+      height:40px;
+      align-items:center;
+      justify-content:flex-end;
+}
+img{
+      border-radius: 60px;}
+
+.flex-layer{
+      flex-direction: row;
+      background-color: white;
+      display:flex;
+      align-items:center;
+      justify-content:space-between;
+      height:80px;
+ margin:auto;
+ width:95%;
+}
+.input-box
+{
+position: relative;
+width: 200px;
+}
+.input-box input{
+      border-style: ridge;
+      border-radius: 50px;
+      background-color: white;
+      display: block;
+      box-sizing: border-box;
+      width:450px;
+      height: 30px;
+}
+.input-box img{
+      position: absolute;
+      top: 10px;
+      left: 424px;
+      float: right;
+}
+.button{
+      background-color: rgb(0, 162, 255);
+       border: solid rgb(0, 162, 255);
+       border-radius: 25px;
+       padding: 4px;
+       color: white;
+       
+}
+
+.flex-sublayer{
+      flex-direction: row;
+      background-color: white;
+      display:flex;
+      align-items:center;
+      font-size: 10px;
+      height:80px;
+ margin:auto;
+ width:95%;
+}
+
+.flex-firstlayer{
+      flex-direction: row;
+      background-color: white;
+      display:flex;
+      align-items:center;
+      font-size: 15px;
+      height:80px;
+ margin:auto;
+ width:95%;
+ justify-content:space-between;
+}
+.flex-secondlayer{
+      flex-direction: row;
+      background-color: white;
+      display:flex;
+      align-items:center;
+      font-size: 15px;
+      height:80px;
+      margin:auto;
+ width:95%;
+ justify-content:space-between;
+ 
+}
