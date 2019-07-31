@@ -43,7 +43,7 @@ img{
       margin-left: 5px;
 }
 .move{
-      margin-right: 40px;
+     margin-right: 70px; 
 }
 .right{
       margin-right: 10px;
@@ -52,7 +52,7 @@ img{
 .input-box
 {
 position: relative;
-width: 320px;
+width: 452px;
 }
 .input-box input{
       border-style: ridge;
