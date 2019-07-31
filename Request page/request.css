@@ -1,3 +1,6 @@
+body{
+      background-color: #F6F8F9;
+}
 
 .flex-number{
       background-color: white;
@@ -27,6 +30,9 @@ img{
       height:80px;
  margin:auto;
  width:97%;
+}
+.right{
+      margin-right: 10px;
 }
 .input-box
 {
@@ -75,11 +81,26 @@ width: 200px;
       display:flex;
       align-items:center;
       font-size: 15px;
-      height:80px;
+      height:90px;
  margin:auto;
  width:97%;
  border: 1px solid lightgrey;
  justify-content:space-between;
+ mask-type:circle;
+}
+.right{
+      margin-right: 10px;
+}
+.left{
+      margin-left: 20px;
+}
+.round{
+      background-color: #24D081;
+      width:11px;
+      height:11px;
+      border-radius: 50%;
+     display: inline-block;
+     margin-right: 80px;
 }
 .flex-secondlayer{
       flex-direction: row;
@@ -87,9 +108,51 @@ width: 200px;
       display:flex;
       align-items:center;
       font-size: 15px;
-      height:80px;
+      height:90px;
       margin:auto;
+      border: 1px solid lightgrey;
  width:97%;
  justify-content:space-between;
  
 }
+.flex-thirdlayer{
+      flex-direction: row;
+      background-color: white;
+      display:flex;
+      align-items:center;
+      font-size: 15px;
+      height:90px;
+      margin:auto;
+ width:97%;
+ justify-content:space-between;
+ border: 1px solid lightgrey;
+}
+.left{
+      margin-left: 10px;
+}
+.flex-fourthlayer{
+      flex-direction: row;
+      background-color: white;
+      display:flex;
+      align-items:center;
+      font-size: 15px;
+      height:90px;
+      margin:auto;
+ width:97%;
+ justify-content:space-between;
+ border: 1px solid lightgrey;
+}
+.flex-showmore{
+      flex-direction: row;
+      color: grey;
+      background-color: white;
+      display:flex;
+      align-items:center;
+      font-size: 12px;
+      height:80px;
+      margin:auto;
+ width:97%;
+ justify-content:center;
+ border: 1px solid lightgrey;
+}
+
