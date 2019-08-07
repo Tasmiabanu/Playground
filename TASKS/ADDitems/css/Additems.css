@@ -1,0 +1,146 @@
+body{
+  background-color:#F6F8F9;
+  margin:0px;
+  padding:0px;
+}
+.head{
+  background-color: white;
+}
+.header{
+  float: right;
+  display: flex;
+  align-items: center;
+  margin-right: 2%;
+  height: 50px;
+  background-color:white;
+}
+.header img{
+  border-radius:400px;
+}
+/* ------------------------HEADER-PART----------------------*/
+.flex-layer{
+  display:flex;
+  flex-direction:column;
+  background-color: white;
+  align-items:center;
+  border: #B5B5B5;
+  justify-content:space-between;
+  float:left;
+  width: 70.14px;
+  margin-top:50px;
+height: 1000px;
+margin-left: 50px;
+}
+.flex-layer p{
+  margin: 100px 0px 0px  0px;
+  transform: rotate(270deg);
+}
+.image{
+  margin-bottom: 450px;
+ 
+}
+.main-layer{
+  display: block;
+  background-color: #FCFCFC;
+  height: 1000px;
+  width: 95%;
+  margin-left: 50px;
+
+  box-shadow:2px 5px 18px #c5c4c4;
+}
+.sub-layer{
+  display:flex;
+  align-items:flex-start;
+  justify-content: space-between;
+ flex-direction:row;
+  background-color:#F0F0F0;
+  border: 1px solid #F0F0F0;;
+margin-left: 100px;
+margin-right: 40px;
+  margin-top:50px;
+  height: 135px;
+}
+.main{
+  margin-left: 50px;
+}
+.justify{
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-around;
+ 
+  margin: auto;
+  margin-left: 1600px;
+}
+.second-layer{
+  
+  background-color: white;
+  margin-bottom:5%;
+  width:100%;
+  height:180%;
+  border: 1px solid #F0F0F0;
+}
+.dates1{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border:  #F0F0F0;
+  margin: auto;
+  margin-left: 50px;
+}
+.dates{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border:  #F0F0F0;
+  margin: auto;
+  margin-left: 50px;
+}
+.dates2{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border:  #F0F0F0;
+  margin: auto;
+  margin-left: 50px;
+}
+
+.dates3{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border:  #F0F0F0;
+  margin: auto;
+  margin-left: 50px;
+}
+.dates4{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border: #F0F0F0;
+  margin: auto;
+  margin-left: 50px;
+}
+
+.button{
+  background-color: rgb(0, 162, 255);
+   border: solid rgb(0, 162, 255);
+   border-radius: 70px;
+   padding: 4px;
+   color: white;
+}
+
+.save{
+    display:flex;
+    align-items:center;
+    flex-direction:row;
+    justify-content:space-between;
+margin-bottom:30%;
+
+}
+.edge{
+  display:flex;
+  align-items:center;
+  flex-direction:row;
+  justify-content:space-between;
+  margin-left:50px;
+}
