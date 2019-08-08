@@ -37,8 +37,11 @@ margin-left: 50%;
 float: left;
  margin-bottom:4%;
 }
+.my{
+  width: 11%;
+}
 .move{
-    margin:0.5px 0px 0px 320px;
+    margin:0.5px 20px 0px 250px;
  }
 .input-box input{
     border-style: ridge;
@@ -63,10 +66,9 @@ float: left;
      color: white;
      
 }
-.filter{
-    
+.filter{  
     background-color:white;
-
+    border: gray;
     float: left;
 }
 .side{
@@ -80,12 +82,12 @@ float: left;
     position: relative;
 width: 10%;
   float: left;
-  margin-left: 450px;
+  margin-left: 400px;
   margin-top: 2%;
 
 }
 .right{
-     margin-left: 320px;
+     margin-left: 375px;
 }
 .round{
     background-color: #24D081;
@@ -99,7 +101,7 @@ width: 10%;
   color: grey;
   background-color: white;
   font-size: 12px;
-  height:10px;
+  height:2%;;
   margin:auto;
 width:97%;
 }
