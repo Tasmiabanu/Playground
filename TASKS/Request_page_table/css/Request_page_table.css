@@ -1,0 +1,108 @@
+body{
+    background-color: #F6F8F9;
+    margin:-10px 0px 0px 0px;
+}
+.head{
+    background-color: white;
+    padding: 1%;
+  }
+  .header{
+    float: right;
+    margin-right: 2%;
+    height: 10px;
+    background-color:white;
+    padding: 1%;
+  }
+  .header img{
+    border-radius:470px;
+  }
+
+  table, th, td {
+      margin-top: 5%;
+      padding: 2%;
+    border: none;
+    border-collapse: collapse;
+  }
+  table tr:nth-child(odd) {
+    background-color: #fff;
+   }
+   table tr:nth-child(even) {
+    background-color: #fff;
+   }
+  .input-box
+{
+position: relative;
+width: 450px;
+margin-left: 50%;
+float: left;
+ margin-bottom:4%;
+}
+.move{
+    margin:0.5px 0px 0px 320px;
+ }
+.input-box input{
+    border-style: ridge;
+    border-radius: 50px;
+    background-color: white;
+    display: block;
+    box-sizing: border-box;
+    width:450px;
+    height: 35px;
+}
+.input-box img{
+    position:absolute;
+    top: 10px;
+    left: 424px;
+    float: right;
+}
+.button{
+    background-color: rgb(0, 162, 255);
+     border: solid rgb(0, 162, 255);
+     border-radius: 25px;
+     padding: 4px;
+     color: white;
+     
+}
+.filter{
+    
+    background-color:white;
+
+    float: left;
+}
+.side{
+    position: relative;
+    bottom: 30px;
+    left: 50px;
+    float: left;
+   
+}
+.im{
+    position: relative;
+width: 10%;
+  float: left;
+  margin-left: 450px;
+  margin-top: 2%;
+
+}
+.right{
+     margin-left: 320px;
+}
+.round{
+    background-color: #24D081;
+    width:11px;
+    height:11px;
+    border-radius: 50%;
+   display: inline-block;
+   margin-right: 80px;
+}
+.flex-showmore{
+  color: grey;
+  background-color: white;
+  font-size: 12px;
+  height:10px;
+  margin:auto;
+width:97%;
+}
+.space{
+  margin-left:-80px;
+}
