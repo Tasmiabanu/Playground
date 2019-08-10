@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Login_Page_</title>
+    <link rel="stylesheet" type="text/css" href="../css/Login_page_js.css">
+    <script>
+        function login() 
+        {
+            var em = document.getElementById("email").value;
+            var pw = document.getElementById("password").value;
+            if (em == "Tasmia@gmail.com" && pw == "TASSU")
+             {
+                alert("Login successful");
+            }
+            else {
+                alert("Please enter the valid username and password");
+            }
+        }
+    </script>
+</head>
+
+<body>
+    <div class="main">
+        <form>
+                <div class="sub">
+                    <span>Login</span>
+                </div>
+
+                <script>
+                    var first = document.getElementById("main-text");
+                    first.addEventListener("click", firstFunction);
+
+                    function firstFunction() {
+                        alert("Welcome");
+                    }
+                </script>
+
+                <div class="email-password">
+                    <div id="email-password-text">
+                        <p id="username"><b>Email-id or Username</b></p>
+                        <input type="email" name="uname" id="email" required>
+                        <p id="display1"></p>
+                    </div>
+
+                    <div id="email-password-text">
+                        <p id="pswd"><b>Password</b></p>
+                        <input type="password" placeholder="* * * * * * * *" name="password" id="password" required>
+                        <p id="display2"></p>
+                    </div>
+                    
+                <div class="rem-me">
+                    <div id="checkbox-text">
+                        <input type="checkbox" name="remember">
+                        <span id="rem">Remember me</span>
+                    </div>
+
+                    <div id="forgot">
+                        <span class="psw" id="frpw"><a href="#">Forgot password?</a></span>
+                    </div>
+                    <div style="clear: both"></div>
+
+                    <script>
+                        var fourth = document.getElementById("rem");
+                        fourth.addEventListener("click", secondFunction);
+                        function secondFunction() {
+                            alert("REMEMBER ME");
+                        }
+                    </script>
+                </div>
+                <button type="submit" onclick="login()">Login</button>
+            </div>
+        </form>
+    </div>
+</body>
+
+</html>

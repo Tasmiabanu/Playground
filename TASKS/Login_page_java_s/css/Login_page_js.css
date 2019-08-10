@@ -1,0 +1,81 @@
+* {
+	margin: 0px; 
+	padding: 0px; 
+	box-sizing: border-box;
+}
+
+body {
+  font-family: "Roboto";
+  background: #F6F8F9;
+}
+
+.main{
+  margin:auto;
+  width: 35%;
+  border:2px solid #e6e5e5;
+  position: absolute;
+  top: 15%;
+  left: 32%;
+  padding:20px;
+  background: #F6F8F9;
+} 
+
+.sub{
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.sub span{
+  position: relative;
+  left: 5px;
+  border-bottom: 3px solid #707070;
+  padding-bottom: 2px;
+  color:#595959;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.email-password{
+  color:black;
+  font-size: 12px;
+}
+
+#email-password-text{
+  position: relative;
+  left: 5px;
+  padding-top: 40px;
+  padding-bottom: 10px;
+}
+
+input[type=email], input[type=password] {
+  width: 80%;
+  padding: 7px 20px;
+  margin: 7px 0;
+  border: 1px solid #ccc;
+}
+
+#checkbox-text{
+  position: relative;
+  left: 5px;
+  float: left;
+}
+#forgot{
+  float: right;
+  margin-right: 94px;
+}
+
+button {
+  background-color: #32BDD2;
+  color: white;
+  padding: 8px 20px;
+  margin: 5px 0;
+  border: none;
+  border-radius: 40px;
+  position: relative;
+  left: 150px;
+  margin-top: 28px;
+}
+
+
+
