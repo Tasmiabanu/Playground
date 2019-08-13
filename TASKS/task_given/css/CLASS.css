@@ -45,11 +45,11 @@ color: black;
   }
   .a{
       padding: 2%;
-      color:rgba(128, 0, 128, 0.925);
+      color:rgb(165, 137, 216);
   }
   .image1{
 padding: 3%;
-margin-right: 50px;
+margin-right: 70px;
   }
   .flex-layer{
     display:flex;
@@ -59,10 +59,14 @@ margin-right: 50px;
     border: #B5B5B5;
     justify-content:space-between;
     float:left;
-    width: 74.14px;
+    width: 50px;
     margin-top:0.5%;
-height: 500px;
+height: 380px;
   margin-left: 30px;
+}
+ion-icon {
+  font-size: 20px;
+  padding: 2%;
 }
 .flex-sublayer{
     display:flex;
@@ -72,8 +76,38 @@ height: 500px;
   float:right;
   justify-content:space-between;
   border: dimgray;
-  width: 85.35%;
-  margin-top: 27px;
+  width: 89.35%;
+  margin-top: 10px;
  margin-bottom: 5px;
  margin-right: 4.5%;
   }
+  .header1{
+    float: right;
+    margin-left: 270px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .third-layer{
+    display:flex;
+   
+    background-color:rgb(165, 137, 216); 
+    align-items:flex-start;
+   flex-direction:column;
+    float:right;
+    justify-content:space-between;
+    border: dimgray;
+    width: 48.35%;
+    height: 40px;
+   margin: auto;
+    margin-top: 15px;
+   margin-right: 690px;
+  }
+  .div{
+    background-color: #F6F8F9;
+    padding: 1%;
+  }
+  .fourth-layer{
+   padding: 1%;
+  }
+ 
