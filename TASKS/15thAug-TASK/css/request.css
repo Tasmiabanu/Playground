@@ -1,0 +1,211 @@
+body{
+      background-color: #F6F8F9;
+      margin:0px;
+      padding:0px;
+}
+.head{
+      background-color: white;
+      height: 40px;
+      box-shadow: 0px 0px 4px #000000;
+    }
+    .header{
+      float: right;
+      display: flex;
+      align-items: center;
+      margin-right: 2%;
+    }
+    .header img{
+      border-radius:400px;
+    }
+
+.flex-layer{
+      flex-direction: row;
+      background-color: white;
+      display:flex;
+      align-items:center;
+      justify-content:space-between;
+      height:80px;
+ margin:auto;
+ width:97%;
+ border: 1.5px solid lightgrey;
+ box-shadow:5px 10px 18px #c5c4c4;
+}
+.line{
+      margin-left: 5px;
+}
+.move{
+     margin-right: 70px; 
+}
+.right{
+      margin-right: 10px;
+}
+
+.input-box
+{
+position: relative;
+width: 452px;
+}
+.input-box input{
+      border-style: ridge;
+      border-radius: 50px;
+      background-color: white;
+      display: block;
+      box-sizing: border-box;
+      width:450px;
+      height: 30px;
+}
+.input-box img{
+      position:absolute;
+      top: 10px;
+      left: 424px;
+      float: right;
+}
+.button{
+      background-color: rgb(0, 162, 255);
+       border: solid rgb(0, 162, 255);
+       border-radius: 25px;
+       padding: 4px;
+       color: white;
+       
+}
+
+.flex-sublayer{
+      flex-direction: row;
+      background-color: white;
+      display:flex;
+      align-items:center;
+      font-size: 10px;
+      height:80px;
+ margin:auto;
+ width:97%;
+ height: 75px;;
+ border: 1px solid lightgrey;
+ box-shadow:5px 10px 18px #888888;
+}
+
+.flex-firstlayer{
+      flex-direction: row;
+      background-color: white;
+      display:flex;
+      align-items:center;
+      font-size: 15px;
+      height:90px;
+ margin:auto;
+ width:97%;
+ border: 1px solid lightgrey;
+ justify-content:space-between;
+ mask-type:circle;
+ box-shadow:5px 10px 18px #888888;
+}
+.right{
+      margin-right: 10px;
+}
+.left{
+      margin-left: 20px;
+}
+.round{
+      background-color: #24D081;
+      width:11px;
+      height:11px;
+      border-radius: 50%;
+     display: inline-block;
+     margin-right: 80px;
+}
+.flex-secondlayer{
+      flex-direction: row;
+      background-color: white;
+      display:flex;
+      align-items:center;
+      font-size: 15px;
+      height:90px;
+      margin:auto;
+      border: 1px solid lightgrey;
+ width:97%;
+ justify-content:space-between;
+ box-shadow:5px 10px 18px #888888;
+}
+
+.flex-thirdlayer{
+      flex-direction: row;
+      background-color: white;
+      display:flex;
+      align-items:center;
+      font-size: 15px;
+      height:90px;
+      margin:auto;
+ width:97%;
+ justify-content:space-between;
+ border: 1px solid lightgrey;
+ box-shadow:5px 10px 18px #888888;
+}
+.left{
+      margin-left: 10px;
+}
+.flex-fourthlayer{
+      flex-direction: row;
+      background-color: white;
+      display:flex;
+      align-items:center;
+      font-size: 15px;
+      height:90px;
+      margin:auto;
+ width:97%;
+ justify-content:space-between;
+border: 1px solid lightgrey; 
+box-shadow:5px 10px 18px #888888;
+}
+.in{
+     background-color: #B5B5B5;
+}
+.flex-showmore{
+      flex-direction: row;
+      color: grey;
+      background-color: white;
+      display:flex;
+      align-items:center;
+      font-size: 12px;
+      height:60px;
+      margin:auto;
+ width:97%;
+ justify-content:center;
+ border: 1px solid lightgrey;
+ box-shadow:5px 10px 18px #888888;
+}
+.space{
+      margin-left:-80px;
+  }
+  .dropbtn:hover, .dropbtn:focus {
+      background-color: #2980B9;
+    }
+    
+    /* The container <div> - needed to position the dropdown content */
+    .dropdown {
+      position: relative;
+      display: inline-block;
+    }
+    
+    /* Dropdown Content (Hidden by Default) */
+    .dropdown-content {
+      display: none;
+      position: absolute;
+      background-color: #f1f1f1;
+      min-width: 160px;
+      box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+      z-index: 1;
+    }
+    
+    /* Links inside the dropdown */
+    .dropdown-content a {
+      color: black;
+      padding: 12px 16px;
+      text-decoration: none;
+      display: block;
+    }
+    
+    /* Change color of dropdown links on hover */
+    .dropdown-content a:hover {background-color: #ddd}
+    
+    /* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
+    .show {display:block;}
+  
+

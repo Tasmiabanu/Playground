@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>LOGIN</title>
+    <style>
+        body {
+            background-color: #F6F8F9;
+        }
+
+        .hello {
+            margin: auto;
+            border: 95px;
+            width: 93%;
+        }
+
+        .login {
+            margin: auto;
+            /*to remove box and align*/
+            border: 0px;
+            background-color: white;
+            width: 400px;
+            margin-top: 40px;
+        }
+
+        button {
+            background-color: #32BDD2;
+            color: white;
+            padding: 8px 20px;
+            margin: 5px 0;
+            border: none;
+            border-radius: 40px;
+            position: relative;
+            left: 20px;
+
+        }
+
+        .box {
+            border: 1px solid #D3D3D3;
+            height: 30.5px;
+        }
+
+        .mail {
+            font: Regular 12px/14px Roboto;
+            letter-spacing: 0.6px;
+            color: #505050;
+            font-size: 12px;
+        }
+
+        .main {
+            position: absolute;
+            /*to align box at center*/
+            top: 40px;
+            left: 50px;
+            padding: 4%;
+            width: 1150px;
+            height: 470px;
+            box-shadow: 2px 5px 18px #c5c4c4;
+            background-color: white;
+            border: 2px solid #e6e5e5;
+            border-top-right-radius: 10px;
+            border-top-left-radius: 10px;
+            border-bottom-right-radius: 10px;
+            border-bottom-left-radius: 10px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="main">
+        <fieldset class="login">
+            <div class="hello">
+                <div>
+                    <br>
+                    <span><b><u>LOGIN</u></b></span>
+                    <br>
+                    </br>
+                </div>
+                <div>
+                    <p class="mail"> Email or Username</p>
+
+
+                    <input class="box" type="text" name="un" size="40">
+
+                </div>
+                <br>
+
+                <div>
+                    <p class="mail">Password</p>
+                    <input class="box" type="password" name="un" placeholder="    * * * * * * * " size="40" border-radius="5px;">
+                </div>
+                <br>
+
+
+                <div>
+                    <input type="checkbox" name="">
+                    <label style="font-size: 12px" color="#707070">Remember me</label>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    <a style="font-size: 12px" href="#" onclick="loginFunction()">Forgot password</a>
+                    <script>
+                        function loginFunction() {
+                            window.location = "login3.html";
+                        }
+                    </script>
+                </div>
+                <br>
+                <br>
+                <div><button type="submit" class="button" onclick="loginFunction()"> LOGIN</button>
+                    <script>
+                        function loginFunction() {
+                            window.location = "login2.html";
+                        }
+                    </script>
+                </div>
+                <br>
+            </div>
+
+
+    </div>
+    </div>
+    </fieldset>
+
+</body>
+
+</html>

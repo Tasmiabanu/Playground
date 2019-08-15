@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Request_page_2</title>
+    <link rel="stylesheet" type="text/css" href="../css/Request2.css">
+</head>
+
+<body>
+    <header class="head">
+        <img src="../images/3lines.png" width="30px" height="30px">
+        <div class="header">
+            <img src="../images/scene.jpg" height="30px" width="30px">
+            &nbsp;
+            <span>Tasmia</span>
+            &nbsp;&nbsp;
+            <img src="../images/nameInfo.png" width="10px" height="10px">
+        </div>
+    </header>
+    <br>
+
+    <div>
+        <div class="flex-layer">
+            <div class="line">
+                <span style="border-bottom: 3px solid rgb(0, 162, 255);">My Requests</span>
+            </div>
+            <div>
+                <div class="input-box">
+                    <input type="text" placeholder="  search" />
+                    <img src="../images/search.png" width="15" height="15" />
+                </div>
+            </div>
+            <div class="move">
+                <button type="submit" class="button">NEW REQUEST </button>
+            </div>
+        </div>
+        <div>
+            <div class="flex-sublayer">
+                <div class="dropdown">
+                    <button onclick="myFunction()"><img src="../images/linesfilter.png" width="24" height="24"></button>
+                    <div id="myDropdown" class="dropdown-content">
+                        <a href="Requestpage2.html" class="in">CLEAR</a>
+                        <a href="requestPage.html">APPROVED</a>
+                        <a href="#">DRAFT</a>
+                        <a href="#">WAITING</a>
+                        <a href="#">REJECT</a>
+                    </div>
+                </div>
+                <script>
+                    function myFunction() {
+                        document.getElementById("myDropdown").classList.toggle("show");
+                    }
+                </script>
+                &nbsp;
+                <span>FILTER<br>you have not applied any
+                    filter</span>
+            </div>
+        </div>
+    </div>
+    <div>
+        <div class="flex-firstlayer">
+            <div class="left">
+                <p><b>PUR-2019-056</b>
+                    <p>Submitted on</p>
+                    <p>06 July 2019</p>
+            </div>
+            <img src="../images/bell.png" width="40" onclick="loginFunction()">
+            <script>
+                function loginFunction() {
+                    window.location = "Request_view.html";
+                }
+            </script>
+            <div><span class="right">AWAITING APPROVAL</span>
+                <span class="round"></span>
+            </div>
+        </div>
+        <div>
+            <div class="flex-secondlayer">
+                <div class="left">
+                    <p><b>PUR-2019-056</b>
+                        <p>Submitted on</p>
+                        <p>06 July 2019</p>
+                </div>
+                <div class="align">
+                    <img src="../images/bell.png" width="40">
+                </div>
+                <div><span class="right">APPROVED</span>
+                    <span class="roundextra"></span>
+                </div>
+            </div>
+            <div>
+                <div class="flex-thirdlayer">
+                    <div class="left">
+                        <p><b>PUR-2019-056</b>
+                            <p> Last saved on</p>
+                            <p>06 July 2019</p>
+                    </div>
+                    <div class="align1">
+                        <img src="../images/bell.png" width="40">
+                    </div>
+                    <div><span class="right">DRAFT</span>
+                        <span class="roundr"></span>
+                    </div>
+                </div>
+            </div>
+            <div>
+                <div class="flex-fourthlayer">
+                    <div class="left">
+                        <p><b>PUR-2019-056</b>
+                            <p>Submitted on</p>
+                            <p>20 June 2019</p>
+                    </div>
+                    <div class="align2">
+                        <img src="../images/bell.png" width="40">
+                    </div>
+                    <div><span class="right">REJECTED</span>
+                        <span class="roundlast"></span>
+                    </div>
+                </div>
+            </div>
+            <div>
+                <div class="flex-showmore">
+                    <div class="space">
+                        <span><b>SHOW MORE</span>
+                    </div>
+                    <img src="../images/nameInfo.png" width="13" height="16px">
+                </div>
+            </div>
+        </div>
+</body>
+
+</html>

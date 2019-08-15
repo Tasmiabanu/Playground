@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Login-2</title>
+    <style>
+        body {
+            background-color: #F6F8F9;
+        }
+
+        .login {
+            margin: auto;
+            border: 0px;
+
+            padding: 4%;
+            width: 40%;
+        }
+
+        .last {
+
+            padding: 2%;
+            display: flex;
+            align-items: center;
+            justify-content: flex-start;
+
+        }
+
+        button {
+            background-color: #32BDD2;
+            color: white;
+            padding: 8px 20px;
+            margin: 5px 0;
+            border: none;
+            border-radius: 40px;
+            position: relative;
+            left: 20px;
+
+        }
+
+        .main {
+
+            position: absolute;
+            top: 40px;
+            left: 80px;
+            border: 2px solid #e6e5e5;
+
+            padding: 1%;
+            margin: auto;
+            width: 89%;
+            box-shadow: 2px 5px 18px #c5c4c4;
+            height: 540px;
+            background-color: white;
+            border-top-right-radius: 10px;
+            border-top-left-radius: 10px;
+            border-bottom-right-radius: 10px;
+            border-bottom-left-radius: 10px;
+        }
+
+        .mail {
+            font: Regular 12px/14px Roboto;
+            letter-spacing: 0.6px;
+            color: #505050;
+            font-size: 12px;
+        }
+
+        .hello {
+            height: 500px;
+        }
+
+        .box {
+            border: 1px solid #D3D3D3;
+            height: 30.5px;
+        }
+
+        .image {
+            padding: 1%;
+            display: flex;
+            align-content: center;
+            font-size: 11px;
+        }
+    </style>
+</head>
+
+<body>
+    <form>
+        <div class="main">
+            <fieldset class="login">
+                <div class="hello">
+                    <div>
+                        <br>
+                        <span><b><u>LOGIN</u></b></span>
+                        <br>
+                        </br>
+                    </div>
+                    <div>
+                        <p class="mail"> Email or Username
+                        </p>
+
+                        <input class="box" type="text" name="un" size="40" height="45%" required>
+                        <div class="image">
+                            <img src="../images/triangle.png" width="12px" height="12px;">
+                            <span style="color: #BF574A" ; font-size="11px;">This field is required</span>
+
+                        </div>
+                    </div>
+                    <br>
+
+                    <div>
+                        <p class="mail"> Password</p>
+                        <input class="box" type="password" name="un" placeholder="   * * * * * * * " size="40" height="45%"
+                            required>
+                        <div class="image">
+                            <img src="../images/triangle.png" width="12px" height="12px;">
+                            <span style="color: #BF574A">This field is required</span>
+                        </div>
+                    </div>
+                    <br>
+                    <div class="last">
+                        <input type="checkbox" name="">
+                        <label style="font-size: 12px;">Remember me</label>
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                        <a style="font-size: 12px;" href="# " onclick="loginFunction1()"> Forgot password </a>
+                        <script>
+                            function loginFunction1() {
+                                window.location = "login3.html";
+                            }
+                        </script>
+
+                    </div>
+                    <br>
+                    <br>
+                    <div><button type="submit" class="button"  onclick="loginFunction2()"> LOGIN</button>
+                        <script>
+                            function loginFunction2() {
+                                window.location = "Requestpage2.html";
+                            }
+                        </script>
+
+                    </div>
+                    <br>
+                </div>
+
+
+        </div>
+
+        </div>
+    </form>
+    </fieldset>
+
+</body>
+
+</html>
