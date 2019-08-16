@@ -14,18 +14,19 @@ body{
     display: flex;
     align-items: center;
     margin-right: 2%;
+    margin-top: 5px;
   }
   .header img{
-    border-radius:400px;
+    border-radius:350px;
   }
   .main{
       background-color: white;
       margin-top: 20px;
       top: 85px;
-left: 114px;
+left: 70px;
 width: 885px;
 height: 2100px;
-margin-left: 14%;
+margin-left: 5%;
 
   }
   .first{

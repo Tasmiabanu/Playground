@@ -37,13 +37,11 @@ box-shadow:5px 10px 18px #c5c4c4;
 {
 position: relative;
 width: 452px;
-margin-left: 30%;
+margin-left: 25%;
 float: left;
  margin-bottom 4%;
 }
-.move{
-    margin:0.5px 0px 0px 1110px;
- }
+
 .input-box input{
     border-style: ridge;
     border-radius: 50px;
@@ -60,6 +58,7 @@ float: left;
     float: right;
 }
 .button{
+    margin-left: 50px;
     background-color: rgb(0, 162, 255);
      border: solid rgb(0, 162, 255);
      border-radius: 25px;
@@ -114,7 +113,7 @@ width: 10%;
 .right{
     position: relative;
     top: 20px;
-    left: 400px;
+    left: 220px;
 width: 15%;
    float: left;
 }
@@ -131,7 +130,7 @@ width: 30%;
     height:11px;
     border-radius: 50%;
    display: inline-block;
-   margin-right: 80px;
+   
 }
 .flex-showmore{
     flex-direction: row;
