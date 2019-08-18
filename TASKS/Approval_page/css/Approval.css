@@ -79,6 +79,9 @@ opacity: 1;
     justify-content: space-between;
     font-size: 10px;
    }
+   .b{
+    margin-left: 100px;
+  }
   .content{
     font-size: 12px;
     text-align: left;
