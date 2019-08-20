@@ -1,7 +1,6 @@
 package com.example.login;
+import androidx.appcompat.app.AlertDialog;
 import androidx.appcompat.app.AppCompatActivity;
-
-import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
@@ -14,7 +13,8 @@ public class forgot_page_login extends AppCompatActivity {
     ImageView i2;
     TextView i3;
     TextView i4;
-
+    AlertDialog.Builder alertBuilder;
+    Button cont;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -25,13 +25,23 @@ public class forgot_page_login extends AppCompatActivity {
         i3=findViewById(R.id.textView10);
         i4=findViewById(R.id.textView11);
 
-        log.setOnClickListener(new View.OnClickListener(){
+
+        alertBuilder = new AlertDialog.Builder(this);
+        final View alertView = getLayoutInflater().inflate(R.layout.activity_forgot_password, null);
+        alertBuilder.setView(alertView);
+        final AlertDialog alertDialog = alertBuilder.create();
+        alertDialog.show();
+        cont=findViewById(R.id.button2);
+        cont.setOnClickListener(new View.OnClickListener() {
             @Override
-            public void onClick(View view){
+            public void onClick(View v) {
+                alertDialog.show();
+
                 i1.setVisibility(1);
                 i2.setVisibility(1);
                 i3.setVisibility(1);
                 i4.setVisibility(1);
+
 
             }
         });

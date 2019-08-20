@@ -9,7 +9,11 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".forgot_page_login"></activity>
+        <activity
+            android:name=".request_page"
+            android:label="@string/title_activity_request_page"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
+        <activity android:name=".forgot_page_login" />
         <activity android:name=".ForgotPassword" />
         <activity android:name=".MainActivity">
             <intent-filter>
