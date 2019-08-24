@@ -14,9 +14,10 @@ body{
     display: flex;
     align-items: center;
     margin-right: 2%;
+    height: 32px;
   }
   .header img{
-    border-radius:400px;
+    border-radius:480px;
   }
 
 .flex-layer{

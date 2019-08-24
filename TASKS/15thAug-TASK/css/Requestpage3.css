@@ -13,9 +13,10 @@ body{
       display: flex;
       align-items: center;
       margin-right: 2%;
+      height: 32px;
     }
     .header img{
-      border-radius:400px;
+      border-radius:480px;
     }
 
 .flex-layer{
@@ -47,10 +48,9 @@ height: 656px;;
     background-color: #FCFCFC; 
     align-items:flex-start;
    flex-direction:column;
-    float:right;
     justify-content:space-between;
     border: dimgray;
-    width: 80.85%;
+    width: 84.85%;
     margin-top: 67px;
    margin-bottom: 10px;
    margin-right: 4.5%;

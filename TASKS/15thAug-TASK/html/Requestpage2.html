@@ -8,9 +8,9 @@
 
 <body>
     <header class="head">
-        <img src="../images/3lines.png" width="30px" height="30px">
+        <img src="../images/3lines.png" width="24px" height="24px">
         <div class="header">
-            <img src="../images/scene.jpg" height="30px" width="30px">
+            <img src="../images/scene.jpg" height="24px" width="24px">
             &nbsp;
             <span>Tasmia</span>
             &nbsp;&nbsp;
@@ -31,13 +31,18 @@
                 </div>
             </div>
             <div class="move">
-                <button type="submit" class="button">NEW REQUEST </button>
+                <button type="submit" class="button"onclick="loginFunction1()" >NEW REQUEST </button>
+                <script>
+                    function loginFunction1() {
+                        window.location = "Requestpage3.html";
+                    }
+                </script>
             </div>
         </div>
         <div>
             <div class="flex-sublayer">
                 <div class="dropdown">
-                    <button onclick="myFunction()"><img src="../images/linesfilter.png" width="24" height="24"></button>
+                    <img src="../images/linesfilter.png" width="24" height="24" onclick="myFunction()">
                     <div id="myDropdown" class="dropdown-content">
                         <a href="Requestpage2.html" class="in">CLEAR</a>
                         <a href="requestPage.html">APPROVED</a>

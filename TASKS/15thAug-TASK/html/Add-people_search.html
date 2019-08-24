@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Add_people_search</title>
+    <link rel="stylesheet" type="text/css" href="../css/Add-people_search.css">
+</head>
+
+<body>
+
+    <div class="content">
+        <p style="font-size: 20px;"><b>Add People</b></p>
+        <img class="image" src="../images/crossmark.png" width="24px" height="24px">
+    </div>
+    <div class="main-layer">
+
+        <div class="input-box">
+            <input type="text" placeholder="Peter Pattigrew" />
+            <img src="../images/search.png" width="17" height="17" />
+        </div>
+        <div class=" research">
+            <img src="../images/re-search.png" width="70px" height="70px">
+            <p class="a"> No Results Found </p>
+            <p class="b"> We can’t find any item matching <br>your search</p>
+        </div>
+
+    </div>
+    <div class="save">
+        <p style="font-size:11px; " onclick="loginFunction()"><b><u>CANCEL</u></b></p>
+        <script>
+            function loginFunction() {
+                window.location = "Add-people.html";
+            }
+        </script>
+        <div class="dot">
+            <span> You haven't selected any person</span>
+
+            <button type="submit" class="button" style="border-bottom: 1px solid rgb(0, 162, 255 ); "
+                onclick="loginFunction1()">DONE</button>
+            <script>
+                function loginFunction1() {
+                    window.location = "Add-people_one.html";
+                }
+            </script>
+        </div>
+
+    </div>
+</body>
+
+</html>

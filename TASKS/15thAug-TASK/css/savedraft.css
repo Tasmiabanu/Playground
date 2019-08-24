@@ -12,7 +12,6 @@ body{
     align-items: center;
     margin-right: 2%;
     height: 32px;
-    background-color:white;
   }
   .header img{
     border-radius:470px;
@@ -45,13 +44,19 @@ body{
     height: 504px;
    margin-right: 70px;
     margin-left: 50px;
-  
     box-shadow:2px 5px 18px #c5c4c4;
   }
   .group{
       background-color: #FCFCFC;
       float: left;
-      width:70%;
+      width:85%;
       margin-top: 50px;
-      margin-left: 50px;
+      margin-left: 20px;
+  }
+  .group p{
+    text-align: left;
+    font-size: 12px;
+    font: Regular 14px/22px Roboto;
+    letter-spacing: 1.4px;
+    color: #747474;
   }
