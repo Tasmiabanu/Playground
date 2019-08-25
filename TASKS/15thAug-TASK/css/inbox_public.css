@@ -1,0 +1,220 @@
+body{
+    background-color:#F6F8F9;
+    height: 2200px;
+    margin:0px;
+    padding:0px;
+  }
+  .head{
+    background-color: white;
+    height: 40px;
+    box-shadow: 0px 0px 4px #000000;
+  }
+  .header{
+    float: right;
+    display: flex;
+    align-items: center;
+    margin-right: 2%;
+    margin-top: 5px;
+  }
+  .header img{
+    border-radius:350px;
+  }
+  .side{
+    width: 55px;
+height: 438px;
+margin-top: 2%;
+margin-left: 2%;
+      background: #FFFFFF 0% 0% no-repeat padding-box;
+box-shadow: 0px 3px 6px #000000;
+border-radius: 15px 0px 0px 15px;
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      justify-content: space-between;
+      float: left;
+  }
+  .side img{
+      padding-left: 20%;
+      padding-top: 2%;
+  }
+  .main{
+      margin-left: 10%;
+     margin-top: 2%;
+    width: 800px;
+    height: 1531px;
+    background: white 0% 0% no-repeat padding-box;
+    box-shadow: 0px 0px 4px #000000;
+  }
+  .a{
+   
+    font: Bold 14px/16px Roboto;
+    letter-spacing: 1.4px;
+    color: #505050;
+   margin-left: 5%;
+   padding-top: 3%;
+  }
+  .b{
+    text-align: left;
+    font: Regular 12px/18px Gibson;
+    letter-spacing: 0.6px;
+    color: #909090;
+    font-size: 12px;
+  }
+  .public{
+    width: 122px;
+    height: 43px;
+    background: #245070 0% 0% no-repeat padding-box;
+    border: 0.5px solid #245070;
+    border-radius: 7px;
+    opacity: 1;
+    margin-top: 4%;
+    display: flex;
+    align-items: center;
+    float: left;
+  }
+  .public span{
+      margin-left: 22%;
+  }
+  .in{
+      margin-left: 5%;
+     margin-top: 4%;
+    width: 122px;
+    height: 43px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border: 0.5px solid #245070;
+    border-radius: 7px;
+    display: flex;
+    align-items: center;
+    float: left;
+  }
+  .in span{
+    margin-left: 22%;
+  }
+  .blue{
+    width: 45px;
+    height: 50px;
+    background: #245070 0% 0% no-repeat padding-box;
+    border-radius: 15px 0px 0px 0px
+  }
+    .box{
+        display: flex;
+        align-items: center;
+    margin-left: 2%;
+        margin-top: 15%;
+        width: 700px;
+        height: 75px;
+        background: #F7F7F7 0% 0% no-repeat padding-box;
+        opacity: 1;
+    }
+    .box img{
+        margin-left: 2%;
+    }
+    .first{
+        margin-left: 4%;
+    }
+    .im1 {
+       margin-left: 330%;
+     padding-bottom: 4%;
+     
+    }
+    .round{
+        background-color: #FF0000 0% 0% no-repeat padding-box;;
+        width:11px;
+        height:11px;
+        border-radius: 50%;
+       display: inline-block; 
+  }
+  .box1{
+    display: flex;
+    align-items: center;
+margin-left: 2%;
+    margin-top: 1%;
+    width: 700px;
+    height: 75px;
+    background: #F7F7F7 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+.box1 img{
+    margin-left: 2%;
+}
+    .first{
+        margin-left: 4%;
+    }
+    .line{
+        width: 3px;
+height: 892px;
+background: #F7F7F7 0% 0% no-repeat padding-box;
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+justify-content: space-between;
+float: left;
+margin-left: 7%;
+    }
+    .you{
+        text-align: left;
+font: SemiBold 12px/12px Gibson;
+letter-spacing: 0.6px;
+color: #707070;
+margin-left: 2%;
+    }
+    .i{
+        margin-top: 5%;
+    }
+.now{
+    text-align: left;
+font: Regular 12px/18px Gibson;
+letter-spacing: 0.6px;
+color: #747474;
+margin-left: 2%;
+margin
+}
+.layer{
+    margin-top:2%;
+    margin-left:7%;
+    width: 620px;
+height: 166px;
+background: #F4F8FA 0% 0% no-repeat padding-box;
+}
+.main-layer{
+
+    width: 550px;
+height: 71px;
+margin-left: 5%;
+background: #FFFFFF 0% 0% no-repeat padding-box;
+border: 1px solid #EDEAEA;
+}
+.button{
+    margin-top: 4%;
+    width: 90px;
+    margin-left: 4%;
+height: 29px;
+background: #32BDD2 0% 0% no-repeat padding-box;
+box-shadow: 0px 2px 4px #000000;
+    border-radius: 29px;
+     border: solid #32BDD2;
+     border-radius: 100px;
+     padding: 4px;
+     color: white;
+     font-size: 12px;
+  }
+  .name{
+    text-align: left;
+font: SemiBold 12px/12px Gibson;
+letter-spacing: 0.6px;
+color: #707070;
+padding-left: 7%;
+margin-top: 5%;
+  }
+  .sam{
+    margin-left: 2%;
+  }
+  .name p{
+    width: 708px;
+    height: 89px;
+    text-align: left;
+    font: Regular 14px/18px Gibson;
+    letter-spacing: 0.7px;
+    color: #747474;
+   margin-left: 2%;
+  }

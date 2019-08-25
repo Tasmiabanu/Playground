@@ -149,6 +149,14 @@ color: #747474;
 margin-top:7%;
 
 }
+.hi{
+  text-align: center;
+  font: SemiBold 12px/13px Gibson;
+  letter-spacing: 1.2px;
+  color: #32BDD2;
+  font-size: 12px;
+
+}
 .edge{
   display:flex;
   align-items:center;

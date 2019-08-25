@@ -1,0 +1,220 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #F6F8F9;
+    margin:0px;
+    padding:0px;
+}
+.head{
+    background-color: white;
+    height: 40px;
+    box-shadow: 0px 0px 4px #000000;
+  }
+  .header{
+    float: right;
+    display: flex;
+    align-items: center;
+    margin-right: 2%;
+    height: 32px;
+  }
+  .header img{
+    border-radius:480px;
+  }
+  .hi{
+    text-align: center;
+    font: SemiBold 12px/13px Gibson;
+    letter-spacing: 1.2px;
+    color: #32BDD2;
+    font-size: 12px;
+  
+  }
+  .flex-layer{
+    display:flex;
+    flex-direction:column;
+    background-color: white;
+    align-items:center;
+    border:1px solid #FFFFFF;
+    justify-content:space-between;
+    float:left;
+    width: 74.14px;
+    margin-top: 20px;
+  height: 655px;
+  text-align: left;
+font: Bold 14px/67px Roboto;
+letter-spacing: 2.8px;
+color: #000000;
+  margin-left: 50px;
+  }
+  .flex-layer p{
+    margin: 90px 0px 0px  0px;
+    transform: rotate(270deg);
+  }
+  .image{
+    margin-bottom: 180px;
+   
+  }
+  .main-layer{
+    display: block;  
+   margin-top: 20px;
+   margin-right: 10px;
+   margin-left: 120px;
+    width: 800px;
+    height: 655px;
+    background: #FCFCFC 0% 0% no-repeat padding-box;
+    opacity: 1;
+    box-shadow:2px 5px 18px #c5c4c4;
+  }
+  .group{
+      width:740px;
+      height:418px;
+     margin-top: 20px;
+background: #FFFFFF 0% 0% no-repeat padding-box;
+border: 1px solid #F0F0F0;
+opacity: 1;
+      border: 1px solid #E0E0E0;
+     margin-left: 30px;
+  }
+  .second-layer{
+    background-color: #F0F0F0;
+    width:740px;
+    height:80px;
+
+  }
+  .one{
+    text-align: left;
+font: Regular 12px/18px Gibson;
+letter-spacing: 0.6px;
+color: #747474;
+opacity: 1;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 12px;
+    margin-left: 45px;
+   }
+  .content{
+    font-size: 12px;
+    text-align: left;
+  font: Regular 12px Roboto;
+  letter-spacing: 0.78px;
+  color: #747474;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-left: 20px;
+  }
+  .as{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    text-align: left;
+    font: Bold 14px/16px Roboto;
+    letter-spacing: 1.4px;
+    color: #505050;
+    opacity: 1;
+    padding: 2%;
+    margin-left: 50px;
+  }  
+  .save{
+      display:flex;
+      align-items:center;
+      flex-direction:row;
+      justify-content:space-between;
+  margin-top:30%;
+  font-size: 12px;
+  font: SemiBold 12px/13px Gibson;
+  letter-spacing: 1.2px;
+  color: #595959;
+  opacity: 1;
+  padding: 4%;
+  
+  }
+  button{
+    border-radius: 23px;
+    background-color: #32BDD2;
+    color: #ffffff;
+    font-size: 12px;
+    font-weight: bold;
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+  .edge{
+    display:flex;
+    align-items:center;
+    flex-direction:row;
+    justify-content:space-between;
+   padding-right: 20px;
+   text-align: center;
+  }
+  .browse{
+      height: 124px;
+    margin-left: 5%;
+    margin-right: 20%;
+    background: #32BDD2 0% 0% no-repeat padding-box;
+}
+.button{
+    background: #32BDD2 0% 0% no-repeat padding-box;
+    border-radius: 29px;
+     border: solid #32BDD2;
+     border-radius: 100px;
+     padding: 4px;
+     color: white;
+     font-size: 12px;
+  }
+.in{
+    background-color: #FFFFFF;
+    border: 1px solid #DFEBEF;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    letter-spacing: 0.5px;
+    width:50%;
+    color: #747474;
+    float: left;
+    padding: 2%;
+   
+}
+.main{
+    background: #32BDD2 0% 0% no-repeat padding-box;
+    border: 1px solid #32BDD2;
+    width: 50%;
+    float: right;
+} 
+.main-in{
+    width: 80%;
+    height: 10%;
+    margin: auto;
+    margin-top: 5%;
+    border: 2px dashed #FFFFFF;
+    background-color: #32BDD2;
+    border-radius: 4px;
+}
+.main-sub{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 6%;
+}
+.cloud-icon{
+    width: 33px;
+    height: 33px;
+}
+
+.an{
+    margin-left: 37px;
+    width: 420px;
+height: 21px;
+    background: #FFF5F5 0% 0% no-repeat padding-box;
+opacity: 1;
+}
+.triangle{
+    
+    float: left;
+    margin-left: 5%; 
+}

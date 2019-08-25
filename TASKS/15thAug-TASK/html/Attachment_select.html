@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>attachment_select</title>
+    <link rel="stylesheet" type="text/css" href="../css/Attachment_select.css">
+</head>
+
+<body>
+    <header class="head">
+        <img src="../images/3lines.png" width="24px" height="24px">
+        <div class="header">
+            <img src="../images/scene.jpg" height="24px" width="24px">
+            &nbsp;
+            <span>Tasmia</span>
+            &nbsp;&nbsp;
+            <img src="../images/nameInfo.png" width="10px" height="10px">
+        </div>
+    </header>
+    <br>
+    <div class="flex-layer">
+        <p><b>REQUISITION</b></p>
+        <img class="image" src="../images/post3.png" width="70" height="280">
+    </div>
+
+    <div class="main-layer">
+        <br>
+        <div class="group">
+
+            <div class="second-layer">
+                <span class="as"><b>ATTACHMENTS</b></span>
+                <div class="content">
+                    <p class="one"> Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                </div>
+            </div>
+            <br>
+            <div style="min-height: 3vh"></div>
+            <div class="browse">
+                <div class="in">
+                    <div>
+                        <p style="font-size: 1vw;font-weight:bold">Select a file from my computer.</p>
+                        <span style="font-size: 0.8vw"> Maximum allowed size is 5MB per file. Only documents
+                            like pdf, docx, ppt, xls etc are allowed.</span>
+                    </div>
+                    <div style="padding: 3%">
+                        <button type="button" style="border-radius: 4px" onclick="loginFunction()">BROWSE</button>
+                        <script>
+                            function loginFunction() {
+                                window.location = "attach.html";
+                            }
+                        </script>
+                    </div>
+                </div>
+                <div class="main">
+                    <div class="main-in">
+                        <div class="main-sub">
+                            <img src="../images/cloud.png" class="cloud-icon" alt="cloud-image" />
+                            <div> <span style="font-size: 8px"> Drop a file here</span></div>
+                        </div>
+                        <div style="clear: both"></div>
+                    </div>
+                </div>
+                <div style="clear: both"></div>
+            </div>
+
+            <div class="save">
+                <div>
+
+                    <p><b><u>SAVE DRAFT</u></b></p>
+                </div>
+                <div class="edge">
+                    <span class="hi">BACK</span>&nbsp;
+                    <button type="submit" class="button"
+                        style="border-bottom: 1px solid rgb(0, 162, 255);">NEXT-></button>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+</body>
+
+</html>
