@@ -19,14 +19,38 @@ body{
   .header img{
     border-radius:350px;
   }
+  .side{
+    width: 50px;
+height: 438px;
+margin-top: 2%;
+margin-left: 1%;
+      background: #FFFFFF 0% 0% no-repeat padding-box;
+box-shadow: 0px 3px 6px #000000;
+border-radius: 15px 0px 0px 15px;
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      justify-content: space-between;
+      float: left;
+  }
+  .blue{
+    width: 40px;
+    height: 50px;
+    background: #245070 0% 0% no-repeat padding-box;
+    border-radius: 15px 0px 0px 0px
+  }
+  .side img{
+      padding-left: 20%;
+      padding-top: 2%;
+  }
   .main{
       background-color: white;
       margin-top: 20px;
       top: 85px;
 left: 70px;
 width: 885px;
-height: 2100px;
-margin-left: 5%;
+height: 2120px;
+margin-left: 8%;
 
   }
   .first{

@@ -3,7 +3,7 @@
 
 <head>
     <title>Inbox-public</title>
-    <link rel="stylesheet" type="text/css" href="../css/inbox_public.css">
+    <link rel="stylesheet" type="text/css" href="../css/Inbox_private.css">
 </head>
 
 <body>
@@ -19,7 +19,7 @@
     </header>
     <div class="side">
         <img class="blue" src="../images/right.png" width="20px" height="20px">
-        <img src="../images/home.png" width="25px" height="25px"  onclick="loginFunction1()">
+        <img src="../images/home.png" width="25px" height="25px" onclick="loginFunction1()">
         <script>
             function loginFunction1() {
                 window.location = "Request_view.html";
@@ -37,38 +37,25 @@
                 <span>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris mattis, tortor sit amet tempor
                     vehicula.</span>
             </div>
-            <div class="public">
-                <span style="color: white;">PUBLIC</span>
-               
-            </div>
             <div class="in">
-                <span onclick="loginFunction()" >PRIVATE</span>
+                <span onclick="loginFunction()">PUBLIC</span>
                 <script>
                     function loginFunction() {
-                        window.location = "Inbox_private.html";
+                        window.location = "inbox_public.html";
                     }
                 </script>
             </div>
+            <div class="public">
+                <span style="color: white;">PRIVATE</span>
+
+            </div>
         </div>
         <div class="box">
-            <img class="first" src="../images/boy.png" width="45px" height="45px">
-            <img src="../images/reddot.png" width="14px" height="14px">
-            <span class="a"><b>Anurag Basu</b><br>
-                <span class="b"> Lorem ipsum doler sit amet.</span>
-                <div class="im1">
-                    <img src="../images/nameInfo.png" width="14px" height="14px">
-                </div>
+
+
         </div>
 
-        <div class="box1">
-            <img class="first" src="../images/girl.jpg" width="45px" height="45px">
-            <img src="../images/reddot.png" width="14px" height="14px">
-            <span class="a"><b>Sameera Rautela</b><br>
-                <span class="b"> Lorem ipsum doler sit amet.</span>
-                <div class="im1">
-                    <img src="../images/nameInfo.png" width="14px" height="14px">
-                </div>
-        </div>
+
         <div class="line"> </div>
         <div class="i">
             <span class="you"><b>You</b></span><br>
@@ -80,6 +67,7 @@
             <button type="submit" class="button">SUBMIT</button>
         </div>
         <div class="name">
+               
             <span class="sam"><b> Sameera Rautela</b><br>
                 &nbsp; 28th Jun 2018 11:47 AM</span>
                 <div class="attach"></div>
@@ -111,22 +99,7 @@
                 molestie sapien ut, semper diam. Mauris non lobortis magna, ut dictum enim. Vivamus vel felis maximus,
                 dignissim risus id, mattis risus. Sed et scelerisque tortor. Proin in elementum nunc, sit amet suscipit
                 odio. Donec tempus non dolor ac aliquet. In ornare mi quis consequat viverra.</p>
-            <div class="box">
-                <img class="first" src="../images/girl.jpg" width="45px" height="45px">
-                <span class="a"><b>Urvashi Banerjee</b><br>
-                    <span class="b"> Lorem ipsum doler sit amet.</span>
-                    <div class="im1">
-                        <img src="../images/nameInfo.png" width="14px" height="14px">
-                    </div>
-            </div>
-            <div class="box1">
-                <img class="first" src="../images/girl.jpg" width="45px" height="45px">
-                <span class="a"><b>Urvashi Banerjee</b><br>
-                    <span class="b"> Lorem ipsum doler sit amet.</span>
-                    <div class="im1">
-                        <img src="../images/nameInfo.png" width="14px" height="14px">
-                    </div>
-            </div>
+
         </div>
 </body>
 

@@ -3,7 +3,7 @@
 
 <head>
     <title>Requisition_additems</title>
-    <link rel="stylesheet" type="text/css" href="../css/Additems.css">
+    <link rel="stylesheet" type="text/css" href="../css/Add_items_more.css">
 </head>
 
 <body>
@@ -32,12 +32,7 @@
                 <div class="content">
                     <p class="one">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
                     <span style="font-size: 14px"><b>ADD ITEMS</b></span>
-                    <img src="../images/plus.png" width="37px" height="37px" onclick="loginFunction()"></span>
-                    <script>
-                        function loginFunction() {
-                            window.location = "PressAdd.html";
-                        }
-                    </script>
+                    <img src="../images/plus.png" width="37px" height="37px"></span>
                 </div>
                 <div>
                     <div>
@@ -45,38 +40,44 @@
                         <div class="dates1">
                             <p style="font-size:12px; "> IBM Thickserver TS150 Tower Server with<br>
                                 Max.Processor 1 x Intel Xeon E3<br>
-                                (Quad Core) E3-1225 v5*(3.3GHz or 8MB)<br>
+                                (Quad Core) E3-1225 v5*(3.3GHz or 8MB)/<br>
+                                STD MEMORY 8GB X 1/ MAX. MEMORY<br>
+                                64GB 4 Slots/HARD DRIVE 1 X 1TB SATA<br>
+                                3.5” 7.2k SATA / STD. HDD BAY/ 3 bay<br>
+                                MAX. HDD BAY upto 4 x 3.5” +1 x 2.5” bay/ <br>
+                                OPTICAL Multi Burner/Integrated RAID <br>
+                                0,1,5,10 (RAID 121i).<br>
                                 <br>
-                             <span  onclick="loginFunction4()"><b>READ MORE</b></span>  
-                             <script>
-                                function loginFunction4() {
-                                    window.location = "Add_items_more.html";
-                                }
-                            </script> 
+                                <span onclick="loginFunction()"><b> READ LESS</b></span>
+                                <script>
+                                    function loginFunction() {
+                                        window.location = "AddItems.html";
+                                    }
+                                </script>
                             </p>
                             <div>01 </div>
                             <div>10 July 2019</div>
                             <div>Rs.45,000</div>
                             <div class="dropdown">
-                                    <img src="../images/equals.png" width="37px" height="37px"  onclick="myFunction()">
-                                   <div id="myDropdown" class="dropdown-content">
-                                           <a href="#">EDIT</a>
-                                           <a href="#">DELETE</a>
-                                       </div>
-                                       <script>
-                                               function myFunction() {
-                                                   document.getElementById("myDropdown").classList.toggle("show");
-                                               }
-                                           </script>
-                      
-                   </div>
+                                <img src="../images/equals.png" width="37px" height="37px" onclick="myFunction()">
+                                <div id="myDropdown" class="dropdown-content">
+                                    <a href="#">EDIT</a>
+                                    <a href="#">DELETE</a>
+                                </div>
+                                <script>
+                                    function myFunction() {
+                                        document.getElementById("myDropdown").classList.toggle("show");
+                                    }
+                                </script>
+
+                            </div>
                         </div>
                         <div class="dates1">
                             <p style="font-size:12px; "> IBM Lenovo Thickserver Tower Server with<br>
                                 Max.Processor 1 x Intel Xeon E3<br>
                                 (Quad Core) E3-1225 v5*(3.3GHz or 8MB)<br>
                                 <br>
-                               <b> READ MORE</b>
+                                <b> READ MORE</b>
                             </p>
                             <div>02 </div>
                             <div>10 July 2019</div>
@@ -104,7 +105,7 @@
                                 Server(PN:70Q90D591H) x Intel<br>
                                 (Quad Core) E3-1225 v5*(3.3GHz or 8MB)<br>
                                 <br>
-                               <b> READ MORE</b>
+                                <b> READ MORE</b>
                             </p>
                             <div>01 </div>
                             <div>10 July 2019</div>
@@ -139,7 +140,7 @@
                         </script>
                     </div>
                     <div class="edge">
-                        &nbsp;  <span  class="hi" onclick="loginFunction2()">BACK</span>
+                        &nbsp; <span class="hi" onclick="loginFunction2()">BACK</span>
                         <script>
                             function loginFunction2() {
                                 window.location = "Requestpage3.html";
@@ -148,11 +149,11 @@
                         &nbsp;&nbsp; <button type="submit" class="button"
                             style="border-bottom: 1px solid rgb(0, 162, 255);" onclick="loginFunction3()">NEXT
                             -></button>
-                            <script>
-                                function loginFunction3() {
-                                    window.location = "Attachment_select.html";
-                                }
-                            </script>
+                        <script>
+                            function loginFunction3() {
+                                window.location = "Attachment_upload.html";
+                            }
+                        </script>
                     </div>
                 </div>
             </div>
