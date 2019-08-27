@@ -84,6 +84,7 @@ public class request_page extends AppCompatActivity
         drawer.addDrawerListener(toggle);
         toggle.syncState();
         navigationView.setNavigationItemSelectedListener(this);
+        ///////////////////////////
         request = findViewById(R.id.button4);
         request.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -92,6 +93,7 @@ public class request_page extends AppCompatActivity
                 startActivity(intent);
             }
         });
+        //////////////////////////
     }
 
     @Override

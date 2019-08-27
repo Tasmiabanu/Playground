@@ -15,9 +15,9 @@ public class Recycler_view extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_recycler_view);
         recyclerView=findViewById(R.id.recycle_View);
-        String title[]={"Rose","Lotus","Jasmine","RCB","Bengularu Bulls"};
-        String date[]={"22-Aug","24-Aug","28-Aug","30-Aug","2-Sep"};
-        String status[]={"APPROVED","REJECTED","DRAFT","AWAITING","COMPLETED"};
+        String title[]={"PUR - 2019 - 056","PUR - 2019 - 056","PUR - 2019 - 056","PUR - 2019 - 056"};
+        String date[]={"06 Jul 2019","06 Jul 2019","06 Jul 2019","06 Jul 2019"};
+        String status[]={"APPROVED","APPROVED","APPROVED","APPROVED"};
         recyclerView.setLayoutManager(new LinearLayoutManager(getApplicationContext()));
         recyclerView.setItemAnimator(new DefaultItemAnimator());
         list_adapter_recycler myRecyclerListAdapter=new list_adapter_recycler(getApplicationContext(),title,date,status);
