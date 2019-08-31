@@ -7,10 +7,9 @@ body{
     height: 8%;
     margin-left:30%;
     margin-top:100px;
-    border-top-right-radius: 50px;
-    border-top-left-radius: 50px;
+    border-radius: 25px 25px 0px 0px;
     padding: 1%;
-    box-shadow: 5px 10px 18px #888888;
+    box-shadow: 0px -3px 6px #00000029;
     flex-direction: row;
     display:flex;
     align-items:center;
@@ -47,7 +46,6 @@ background-color:#FCFCFC;
 margin-right: 38%;
 margin-left: 30%;
 padding: 1%;
-border-bottom-right-radius: 50px;
-border-bottom-left-radius: 50px;
-box-shadow: 5px 10px 18px #888888;
+box-shadow: 0px -3px 6px #00000029;
+border-radius: 0px 0px 37px 37px;
 }

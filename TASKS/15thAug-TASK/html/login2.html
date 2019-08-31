@@ -16,6 +16,13 @@
             width: 40%;
         }
 
+        .a {
+            text-align: left;
+            font: Bold 16px/19px Roboto;
+            letter-spacing: 1.6px;
+            color: #595959;
+        }
+
         .last {
 
             padding: 2%;
@@ -43,10 +50,9 @@
             top: 40px;
             left: 80px;
             border: 2px solid #e6e5e5;
-
             padding: 1%;
             margin: auto;
-            width: 750px;
+            width: 70%;
             box-shadow: 2px 5px 18px #c5c4c4;
             height: 450px;
             background-color: white;
@@ -88,7 +94,7 @@
                 <div class="hello">
                     <div>
                         <br>
-                        <span><b><u>LOGIN</u></b></span>
+                        <span class="a"><b><u>LOGIN</u></b></span>
                         <br>
                         </br>
                     </div>
@@ -107,8 +113,8 @@
 
                     <div>
                         <p class="mail"> Password</p>
-                        <input class="box" type="password" name="un" placeholder="   * * * * * * * " size="40" height="45%"
-                            required>
+                        <input class="box" type="password" name="un" placeholder="   * * * * * * * " size="40"
+                            height="45%" required>
                         <div class="image">
                             <img src="../images/triangle.png" width="12px" height="12px;">
                             <span style="color: #BF574A">This field is required</span>
@@ -122,14 +128,14 @@
                         <a style="font-size: 12px;" href="# " onclick="loginFunction1()"> Forgot password </a>
                         <script>
                             function loginFunction1() {
-                                window.location = "login3.html";
+                                window.location = "forgot-password.html";
                             }
                         </script>
 
                     </div>
                     <br>
                     <br>
-                    <div><button type="submit" class="button"  onclick="loginFunction2()"> LOGIN</button>
+                    <div><button type="submit" class="button" onclick="loginFunction2()"> LOGIN</button>
                         <script>
                             function loginFunction2() {
                                 window.location = "Requestpage2.html";
