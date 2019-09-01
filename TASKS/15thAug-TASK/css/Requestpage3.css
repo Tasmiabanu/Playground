@@ -18,7 +18,17 @@ body{
     .header img{
       border-radius:480px;
     }
+    .box {
+      border: 1px solid #D3D3D3;
+      height: 90px;
+      width: 500px;
+    margin-left: 20px;
+  }
+.in{
+  background-color: #FCFCFC;
+  float: left;
 
+}
 .flex-layer{
       display:flex;
       flex-direction:column;
@@ -28,12 +38,30 @@ body{
       justify-content:space-between;
       float:left;
       width: 74.14px;
-      margin-top:67px;
-height: 656px;;
+      margin-top:20px;
+height: 720px;;
     margin-left: 30px;
   }
-  
-
+  .start{
+    text-align: left;
+    font: Bold 14px/16px Roboto;
+    letter-spacing: 1.4px;
+    color: #000000;
+    font-size: 14px;
+    margin-left: 30px;
+  }
+.now{
+  text-align: left;
+font: Regular 12px/18px Gibson;
+letter-spacing: 0.6px;
+color: #747474;
+margin-left: 30px;
+font-size: 12px;
+}
+.radio{
+  margin-left: 30px;
+  margin-top: 20px;
+}
   .flex-layer p{
       
       margin: 100px 0px 0px  0px;
@@ -51,7 +79,8 @@ height: 656px;;
     justify-content:space-between;
     border: dimgray;
     width: 84.85%;
-    margin-top: 67px;
+    height: 720px;
+    margin-top: 20px;
    margin-bottom: 10px;
    margin-right: 4.5%;
    
@@ -69,7 +98,8 @@ height: 656px;;
       align-items:center;
       flex-direction:row;
       justify-content:space-between;
- margin-top: 21%;
+ margin-top: 19%;
+ margin-left: 30px;
 }
 .edge{
     
