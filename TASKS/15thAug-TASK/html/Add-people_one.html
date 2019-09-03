@@ -10,13 +10,24 @@
 
     <div class="content">
         <p style="font-size: 20px;"><b>Add People</b></p>
-        <img class="image" src="../images/crossmark.png" width="24px" height="24px">
+        <img class="image" src="../images/crossmark.png" width="24px" height="24px" onclick="loginFunction4()">
+        <script>
+            function loginFunction4() {
+                window.location = "InvitePeople.html";
+            }
+        </script>
+        
     </div>
     <div class="main-layer">
 
         <div class="input-box">
             <input type="text" placeholder="Peter Dinklage" />
-            <img src="../images/search.png" width="17" height="17" />
+            <img src="../images/search.png" width="17" height="17"   onclick="loginFunction3()"/>
+            <script>
+                function loginFunction3() {
+                    window.location = "InvitePeople.html";
+                }
+            </script>
             <span class="in"> 1 result found</span>
         </div>
         <div class="browsefile">
@@ -32,7 +43,7 @@
         <p style="font-size:11px; " onclick="loginFunction()"><b><u>CANCEL</u></b></p>
         <script>
             function loginFunction() {
-                window.location = "Request_view.html";
+                window.location = "InvitePeople.html";
             }
         </script>
         <div class="dot">
@@ -42,7 +53,7 @@
                 onclick="loginFunction1()">DONE</button>
             <script>
                 function loginFunction1() {
-                    window.location = "Request_view.html";
+                    window.location = "InvitePeople.html";
                 }
             </script>
         </div>
