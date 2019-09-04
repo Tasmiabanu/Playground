@@ -74,12 +74,21 @@ margin-left: 20px;
     background: #F4F8FA 0% 0% no-repeat padding-box;
     width: 520px;
 height: 61px;
-   
+   margin-left: 20px;
     display: flex;
     align-items: center;
     padding: 1%;
 border: 1px solid #D5E2E8;
 margin-left: 20px;
+}
+.scroll{
+    padding: 2%;
+    width: 570px;
+    height: 300px;
+    margin: auto;
+    margin-top: 50px;
+    overflow-x:hidden;
+    overflow-y: scroll; 
 }
 .im{
     top: 1861px;

@@ -45,6 +45,15 @@ width: 500px;
       height: 40px;
       padding: 2%;
 }
+.scroll{
+    padding: 2%;
+    width: 570px;
+    height: 300px;
+    margin: auto;
+    margin-top: 50px;
+    overflow-x:hidden;
+    overflow-y: scroll; 
+}
 .input-box img{
       position:absolute;
       top: 10px;
