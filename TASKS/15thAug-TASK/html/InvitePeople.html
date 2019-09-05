@@ -30,14 +30,15 @@
             <div class="second-layer">
                 <span class="as"><b>INVITE PEOPLE</b></span>
                 <div class="content">
-                 <p class="one"> Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                    <p class="one"> Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
                     <span class="h"><b>ADD PEOPLE</b></span>
-                    <img src="../images/plus.png" height="35px" width="35px" border-radius="50px" onclick="loginFunction4()"></span>
+                    <img src="../images/plus.png" height="35px" width="35px" border-radius="50px"
+                        onclick="loginFunction4()"></span>
                     <script>
-                            function loginFunction4() {
-                                window.location = "Add-people.html";
-                            }
-                        </script>
+                        function loginFunction4() {
+                            window.location = "#move";
+                        }
+                    </script>
                 </div>
             </div>
             <br>
@@ -73,8 +74,9 @@
                 </script>
             </div>
             <div class="edge">
-                <span  class="hi" onclick="loginFunction1()">BACK</span>&nbsp;
-                <button type="submit" class="button" style="border-bottom: 1px solid rgb(0, 162, 255);" onclick="loginFunction1()">NEXT-></button>
+                <span class="hi" onclick="loginFunction1()">BACK</span>&nbsp;
+                <button type="submit" class="button" style="border-bottom: 1px solid rgb(0, 162, 255);"
+                    onclick="loginFunction1()">NEXT-></button>
                 <script>
                     function loginFunction1() {
                         window.location = "Approval.html";
@@ -84,7 +86,102 @@
         </div>
 
     </div>
+
+
+
+
+<div class="ja" id="move">
+    <div class="move-content" >
+        <p style="font-size: 20px;"><b>Add People</b></p>
+        <img class="move-image" src="../images/crossmark.png" width="24px" height="24px" onclick="loginFunction54()">
+        <script>
+            function loginFunction54() {
+                window.location = "InvitePeople.html";
+            }
+        </script>
     </div>
+   
+    <div class="move-main-layer">
+
+        <div class="move-input-box">
+            <input type="text" placeholder="   search" />
+            <img src="../images/search.png" width="17" height="17" onclick="loginFunction53()" />
+            <script>
+                function loginFunction53() {
+                    window.location = "Add-people_search.html";
+                }
+            </script>
+        </div>
+        <div class="move-scroll">
+            <div class="move-browsefile">
+                <img class="move-im" src="../images/boy.png" height="24px" width="24px" border-radius="50px">
+                <p class="move-a"><b>Luke Ray</b><br>
+                    Lorem ipsum doler sit amet.</p>
+                <img class="move-b" src="../images/plus.png" height="35px" width="35px" border-radius="50px"
+                    onclick="loginFunctio55()"/>
+                 <script>
+                    function loginFunction55() {
+                        window.location = "Add-1-people.html";
+                    }
+                </script>
+            </div>
+            <div class="move-browsefile1">
+                <img class="move-im" src="../images/boy.png" height="24px" width="24px" border-radius="50px" ;>
+                <p class="move-a"><b>Daisy Lake</b><br>
+                    Lorem ipsum doler sit amet.</p>
+                <img class="move-b" src="../images/plus.png" height="35px" width="35px" border-radius="50px" ;>
+            </div>
+            <div class="move-browsefile1">
+                <img class="move-im" src="../images/boy.png" height="24px" width="24px" border-radius="50px" ;>
+                <p class="move-a"><b>Mark Smith</b><br>
+                    Lorem ipsum doler sit amet.</p>
+                <img class="move-b" src="../images/plus.png" height="35px" width="35px" border-radius="50px" ;>
+            </div>
+            <div class="move-browsefile1">
+                <img class="move-im" src="../images/boy.png" height="24px" width="24px" border-radius="50px" ;>
+                <p class="move-a"><b>Harry Weasley</b><br>
+                    Lorem ipsum doler sit amet.</p>
+                <img class="move-b" src="../images/plus.png" height="35px" width="35px" border-radius="50px" ;>
+            </div>
+            <div class="move-browsefile1">
+                <img class="move-im" src="../images/boy.png" height="24px" width="24px" border-radius="50px" ;>
+                <p class="move-a"><b>Harry Weasley</b><br>
+                    Lorem ipsum doler sit amet.</p>
+                <img class="move-b" src="../images/plus.png" height="35px" width="35px" border-radius="50px" ;>
+            </div>
+            <div class="move-browsefile1">
+                <img class="move-im" src="../images/boy.png" height="24px" width="24px" border-radius="50px" ;>
+                <p class="move-a"><b>Harry Weasley</b><br>
+                    Lorem ipsum doler sit amet.</p>
+                <img class="move-b" src="../images/plus.png" height="35px" width="35px" border-radius="50px" ;>
+            </div>
+
+        </div>
+    </div>
+    <div class="move-save">
+        <p style="font-size:11px; " onclick="loginFunction51()"><b><u>CANCEL</u></b></p>
+        <script>
+            function loginFunction51() {
+                window.location = "InvitePeople.html";
+            }
+        </script>
+        <div class="move-dot">
+            <span> You haven't selected any person</span>
+
+            <button type="submit" class="button" style="border-bottom: 1px solid rgb(0, 162, 255 ); "
+                onclick="loginFunction50()">DONE</button>
+            <script>
+                function loginFunction50() {
+                    window.location = "InvitePeople.html";
+
+                }
+            </script>
+        </div>
+
+    </div>
+    </div>
+</div>
+</div>
 </body>
 
 </html>
