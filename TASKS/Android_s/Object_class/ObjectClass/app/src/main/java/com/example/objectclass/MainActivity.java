@@ -12,10 +12,10 @@ public class MainActivity extends AppCompatActivity{
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         object b=new object();
-         demo();
+         object();
     }
 
-    public void demo() {
+    public void object() {
         Toast.makeText(getApplicationContext(),"This is object", Toast.LENGTH_SHORT).show();
     }
 }
