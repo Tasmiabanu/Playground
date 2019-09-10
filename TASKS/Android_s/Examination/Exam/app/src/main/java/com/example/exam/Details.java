@@ -6,6 +6,8 @@ import android.widget.Toast;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import com.example.exam.R;
+
 import static android.widget.Toast.LENGTH_SHORT;
 
 public class Details extends AppCompatActivity {
@@ -14,7 +16,7 @@ public class Details extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
     }
-    Details()
+    public Details()
     {
         System.out.println("java");
     }
@@ -23,13 +25,12 @@ public class Details extends AppCompatActivity {
     }
 
     public void demo1(Context applicationContext) {
-        Toast.makeText(applicationContext,"these are Books", LENGTH_SHORT).show();
+        Toast.makeText(applicationContext,"this is Examiner", LENGTH_SHORT).show();
     }
     public void demo2(Context applicationContext) {
         Toast.makeText(applicationContext,"these are Id's", LENGTH_SHORT).show();
     }
-    public void demo3(Context applicationContext) {
-        Toast.makeText(applicationContext,"these are Editions", LENGTH_SHORT).show();
-    }
+
 
 }
+

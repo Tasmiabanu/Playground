@@ -10,7 +10,7 @@ import android.widget.Toast;
 
 import static android.widget.Toast.LENGTH_SHORT;
 
-public class MainActivity extends AppCompatActivity {
+public class MainActivity extends AppCompatActivity implements Addition {
     Button Request;
     Button books;
     Button id;
@@ -20,9 +20,9 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+        display();
 
         Request = findViewById(R.id.button);
-
         Request.setOnClickListener(new View.OnClickListener() {
 
             @Override
@@ -59,5 +59,10 @@ public class MainActivity extends AppCompatActivity {
                 b.demo3(getApplicationContext());
             }
         });
+    }
+
+    @Override
+    public void display() {
+        Toast.makeText(getApplicationContext(),"This is library Management", Toast.LENGTH_SHORT).show();
     }
 }
