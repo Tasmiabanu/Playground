@@ -48,30 +48,31 @@ public class request_page extends AppCompatActivity
         filterOption = findViewById(R.id.imageView11);
         listView=findViewById(R.id.listView);
 
-        ArrayList<String> a1 = new ArrayList<>();
-        ArrayList<String> a2 = new ArrayList<>();
-        ArrayList<String> a3 = new ArrayList<>();
+        ArrayList<String>  title = new ArrayList<>();
+        ArrayList<String> dates = new ArrayList<>();
+        ArrayList<String> status = new ArrayList<>();
 
-        a1.add("PUR-056");
-        a1.add("PUR-056");
-        a1.add("PUR-056");
-        a1.add("PUR-056");
-
-        a2.add("06 Jul 2019");
-        a2.add("06 Jul 2019");
-        a2.add("06 Jul 2019");
-        a2.add("06 Jul 2019");
-
-        a3.add("APPROVED");
-        a3.add("APPROVED");
-        a3.add("APPROVED");
-        a3.add("APPROVED");
+        title.add("PUR-056");
+        title.add("PUR-056");
+        title.add("PUR-056");
+        title.add("PUR-056");
 
 
-        list_adapter listAdapter= new list_adapter(getApplicationContext(), a1, a2,a3);
+        dates.add("06 Jul 2019");
+        dates.add("06 Jul 2019");
+        dates.add("06 Jul 2019");
+        dates.add("06 Jul 2019");
+
+
+        status.add("APPROVED");
+        status.add("APPROVED");
+        status.add("APPROVED");
+        status.add("APPROVED");
+
+
+        list_adapter listAdapter= new list_adapter(getApplicationContext(), title,dates,status);
 
         listView.setAdapter(listAdapter);
-//        text = findViewById(R.id.textView8);
         listPopupWindow= new ListPopupWindow(getApplicationContext());
 
         String[] items={" Clear", " Approved", " Draft"," Reject"};
@@ -104,16 +105,15 @@ public class request_page extends AppCompatActivity
         drawer.addDrawerListener(toggle);
         toggle.syncState();
         navigationView.setNavigationItemSelectedListener(this);
-        ///////////////////////////
+
         request = findViewById(R.id.button4);
         request.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(getApplicationContext(), Recycler_view.class);
+                Intent intent = new Intent(getApplicationContext(),Request_form.class);
                 startActivity(intent);
             }
         });
-        //////////////////////////
     }
 
     @Override
@@ -129,34 +129,26 @@ public class request_page extends AppCompatActivity
 
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
-        // Inflate the menu; this adds items to the action bar if it is present.
         getMenuInflater().inflate(R.menu.request_page, menu);
         return true;
     }
 
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
-        // Handle action bar item clicks here. The action bar will
-        // automatically handle clicks on the Home/Up button, so long
-        // as you specify a parent activity in AndroidManifest.xml.
         int id = item.getItemId();
-
-        //noinspection SimplifiableIfStatement
         if (id == R.id.action_settings) {
             return true;
         }
 
         return super.onOptionsItemSelected(item);
     }
-
-    @SuppressWarnings("StatementWithEmptyBody")
     @Override
     public boolean onNavigationItemSelected(MenuItem item) {
-        // Handle navigation view item clicks here.
+
         int id = item.getItemId();
 
         if (id == R.id.nav_home) {
-            // Handle the camera action
+
         } else if (id == R.id.nav_gallery) {
 
         } else if (id == R.id.nav_slideshow) {

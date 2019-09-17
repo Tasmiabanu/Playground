@@ -27,11 +27,14 @@ public class MainActivity extends AppCompatActivity {
         a1.add("PUR-056");
         a1.add("PUR-056");
         a1.add("PUR-056");
+        a1.add("PUR-056");
 
         a2.add("06 Jul 2019");
         a2.add("06 Jul 2019");
         a2.add("06 Jul 2019");
+        a2.add("06 Jul 2019");
 
+        a3.add("APPROVED");
         a3.add("APPROVED");
         a3.add("APPROVED");
         a3.add("APPROVED");
@@ -40,8 +43,7 @@ public class MainActivity extends AppCompatActivity {
 
         listv.setAdapter(a);
 
-        Intent intent = new Intent(getApplicationContext(), List_adapter_class.class);
-        startActivity(intent);
+
     }
 }
 
