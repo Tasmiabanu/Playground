@@ -1,31 +1,34 @@
 package com.example.login;
 
 import android.content.Context;
+import android.database.Cursor;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.BaseAdapter;
+import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.TextView;
+
+import androidx.constraintlayout.widget.ConstraintLayout;
+
+import com.example.login.Model.Request_model;
 
 import java.util.ArrayList;
 
 public class list_adapter extends BaseAdapter {
+
+
     Context context;
-    ArrayList<String> a1;
-    ArrayList<String> a2;
-    ArrayList<String> a3;
+    ArrayList<Request_model> request;
+    public list_adapter(Context context, ArrayList<Request_model> request_models){
+        this.request=request_models;
+        this.context=context;
+    }
 
-     public list_adapter(Context context, ArrayList<String> a1, ArrayList<String> a2, ArrayList<String> a3) {
-         this.a1=a1;
-         this.a2=a2;
-         this.a3=a3;
-         this.context=context;
-     }
-
-     @Override
+    @Override
      public int getCount() {
-         return a1.size();
+         return request.size();
      }
      @Override
      public Object getItem(int position) {
@@ -36,23 +39,26 @@ public class list_adapter extends BaseAdapter {
          return 0;
      }
          @Override
-         public View getView(int position, View convertView, ViewGroup parent) {
+         public View getView(int i, View convertView, ViewGroup parent) {
              View view=LayoutInflater.from(context).inflate(R.layout.items_list,parent,false);
 
              TextView title,date,status;
              ImageView imageView;
+
+             Request_model Request= this.request.get(i);
 
              title=view.findViewById(R.id.titles);
              date=view.findViewById(R.id.dates);
              status=view.findViewById(R.id.textView16);
              imageView=view.findViewById(R.id.imageView6);
 
-             title.setText(a1.get(position));
-             date.setText(a2.get(position));
-             status.setText(a3.get(position));
+             title.setText(String.valueOf(Request.getReqNumber()));
+             date.setText(String.valueOf(Request.getRequestDate()));
+             status.setText(String.valueOf(Request.getRequest_status()));
              imageView.setImageResource(R.drawable.bell);
              return view;
      }
+
  }
 
 

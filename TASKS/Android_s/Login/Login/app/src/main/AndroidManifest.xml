@@ -12,9 +12,17 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity
+            android:name=".RequestView"
+            android:label="@string/title_activity_request_view"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
+        <activity
+            android:name=".Request_form2"
+            android:label="@string/title_activity_request_form2"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
             android:name=".Request_form"
             android:label="@string/title_activity_request_form"
-            android:theme="@style/AppTheme.NoActionBar"></activity>
+            android:theme="@style/AppTheme.NoActionBar" />
         <activity android:name=".Practice" />
         <activity android:name=".Recycler_view" />
         <activity

@@ -20,7 +20,7 @@
         app:layout_constraintTop_toTopOf="parent">
 
         <TextView
-            android:id="@+id/textView8"
+            android:id="@+id/Requisition"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginStart="38dp"
@@ -41,10 +41,10 @@
             android:layout_marginTop="20dp"
             android:background="@drawable/dashline"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/textView8">
+            app:layout_constraintTop_toBottomOf="@+id/Requisition">
 
             <TextView
-                android:id="@+id/textView23"
+                android:id="@+id/Section-one"
                 android:layout_width="22dp"
                 android:layout_height="20dp"
                 android:background="@drawable/circleblue"
@@ -54,31 +54,55 @@
                 app:layout_constraintTop_toTopOf="parent" />
 
             <TextView
-                android:id="@+id/textView18"
+                android:id="@+id/Section-six"
                 android:layout_width="22dp"
                 android:layout_height="20dp"
-                android:layout_marginStart="21dp"
-                android:layout_marginLeft="21dp"
-                android:background="@drawable/post_one"
-                android:gravity="center"
-                android:text="3"
-                app:layout_constraintStart_toEndOf="@+id/textView19"
-                app:layout_constraintTop_toTopOf="parent" />
-
-            <TextView
-                android:id="@+id/textView20"
-                android:layout_width="22dp"
-                android:layout_height="20dp"
-                android:layout_marginStart="21dp"
-                android:layout_marginLeft="21dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginLeft="20dp"
                 android:background="@drawable/post_one"
                 android:gravity="center"
                 android:text="6"
-                app:layout_constraintStart_toEndOf="@+id/textView22"
+                app:layout_constraintStart_toEndOf="@+id/Section-five"
                 app:layout_constraintTop_toTopOf="parent" />
 
             <TextView
-                android:id="@+id/textView19"
+                android:id="@+id/Section-five"
+                android:layout_width="22dp"
+                android:layout_height="20dp"
+                android:layout_marginStart="25dp"
+                android:layout_marginLeft="25dp"
+                android:background="@drawable/post_one"
+                android:gravity="center"
+                android:text="5"
+                app:layout_constraintStart_toEndOf="@+id/section-four"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/section-four"
+                android:layout_width="22dp"
+                android:layout_height="20dp"
+                android:layout_marginStart="23dp"
+                android:layout_marginLeft="23dp"
+                android:background="@drawable/post_one"
+                android:gravity="center"
+                android:text="4"
+                app:layout_constraintStart_toEndOf="@+id/section-three2"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/section-three2"
+                android:layout_width="22dp"
+                android:layout_height="20dp"
+                android:layout_marginStart="27dp"
+                android:layout_marginLeft="27dp"
+                android:background="@drawable/post_one"
+                android:gravity="center"
+                android:text="3"
+                app:layout_constraintStart_toEndOf="@+id/section-"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/section-"
                 android:layout_width="22dp"
                 android:layout_height="20dp"
                 android:layout_marginStart="23dp"
@@ -86,32 +110,9 @@
                 android:background="@drawable/post_one"
                 android:gravity="center"
                 android:text="2"
-                app:layout_constraintStart_toEndOf="@+id/textView23"
+                app:layout_constraintStart_toEndOf="@+id/Section-one"
                 app:layout_constraintTop_toTopOf="parent" />
 
-            <TextView
-                android:id="@+id/textView22"
-                android:layout_width="22dp"
-                android:layout_height="20dp"
-                android:layout_marginStart="26dp"
-                android:layout_marginLeft="26dp"
-                android:background="@drawable/post_one"
-                android:gravity="center"
-                android:text="5"
-                app:layout_constraintStart_toEndOf="@+id/textView21"
-                app:layout_constraintTop_toTopOf="parent" />
-
-            <TextView
-                android:id="@+id/textView21"
-                android:layout_width="22dp"
-                android:layout_height="20dp"
-                android:layout_marginStart="28dp"
-                android:layout_marginLeft="28dp"
-                android:background="@drawable/post_one"
-                android:gravity="center"
-                android:text="4"
-                app:layout_constraintStart_toEndOf="@+id/textView18"
-                app:layout_constraintTop_toTopOf="parent" />
         </androidx.constraintlayout.widget.ConstraintLayout>
 
     </androidx.constraintlayout.widget.ConstraintLayout>
@@ -145,17 +146,6 @@
         app:layout_constraintTop_toBottomOf="@+id/textView24" />
 
     <TextView
-        android:id="@+id/textView26"
-        android:layout_width="272dp"
-        android:layout_height="45dp"
-        android:layout_marginStart="36dp"
-        android:layout_marginLeft="36dp"
-        android:layout_marginTop="16dp"
-        android:background="@drawable/white_backg"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView27" />
-
-    <TextView
         android:id="@+id/textView27"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -185,12 +175,12 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="36dp"
         android:layout_marginLeft="36dp"
-        android:layout_marginTop="40dp"
+        android:layout_marginTop="32dp"
         android:text="REQUEST TYPE"
         android:textColor="#000000"
         android:textSize="12sp"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView26" />
+        app:layout_constraintTop_toBottomOf="@+id/editText4" />
 
     <TextView
         android:id="@+id/textView31"
@@ -300,5 +290,21 @@
         android:textColor="#595959"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView37" />
+
+    <EditText
+        android:id="@+id/editText4"
+        android:layout_width="254dp"
+        android:layout_height="44dp"
+        android:layout_marginStart="36dp"
+        android:layout_marginLeft="36dp"
+        android:layout_marginTop="29dp"
+        android:background="@drawable/bordertext"
+        android:ems="10"
+        android:gravity="start|top"
+        android:hint="Edit-Text"
+        android:inputType="textMultiLine"
+        android:textSize="8sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView27" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
