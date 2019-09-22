@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".Request_form2"
+    tools:showIn="@layout/app_bar_request_form2">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/constraintLayout6"
+        android:layout_width="412dp"
+        android:layout_height="78dp"
+        android:background="#FFFFFF"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/Requisition"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="30dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="8dp"
+            android:gravity="center"
+            android:text="REQUISITION"
+            android:textColor="#000000"
+            android:textSize="14sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="252dp"
+            android:layout_height="21dp"
+            android:layout_marginStart="30dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="16dp"
+            android:background="@drawable/dashline"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/Requisition">
+
+            <TextView
+                android:id="@+id/one"
+                android:layout_width="22dp"
+                android:layout_height="20dp"
+                android:background="@drawable/post_one"
+                android:gravity="center"
+                android:text="1"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/three"
+                android:layout_width="22dp"
+                android:layout_height="20dp"
+                android:layout_marginStart="21dp"
+                android:layout_marginLeft="21dp"
+                android:background="@drawable/post_one"
+                android:gravity="center"
+                android:text="3"
+                app:layout_constraintStart_toEndOf="@+id/two2"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/three2"
+                android:layout_width="22dp"
+                android:layout_height="20dp"
+                android:layout_marginStart="21dp"
+                android:layout_marginLeft="21dp"
+                android:background="@drawable/post_one"
+                android:gravity="center"
+                android:text="3"
+                app:layout_constraintStart_toEndOf="@+id/two2"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/four"
+                android:layout_width="22dp"
+                android:layout_height="20dp"
+                android:layout_marginStart="24dp"
+                android:layout_marginLeft="24dp"
+                android:background="@drawable/post_one"
+                android:gravity="center"
+                android:text="4"
+                app:layout_constraintStart_toEndOf="@+id/three"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/six"
+                android:layout_width="22dp"
+                android:layout_height="20dp"
+                android:layout_marginStart="24dp"
+                android:layout_marginLeft="24dp"
+                android:background="@drawable/post_one"
+                android:gravity="center"
+                android:text="6"
+                app:layout_constraintStart_toEndOf="@+id/five2"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/five2"
+                android:layout_width="22dp"
+                android:layout_height="20dp"
+                android:layout_marginStart="24dp"
+                android:layout_marginLeft="24dp"
+                android:background="@drawable/post_one"
+                android:gravity="center"
+                android:text="5"
+                app:layout_constraintStart_toEndOf="@+id/four"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/two2"
+                android:layout_width="22dp"
+                android:layout_height="20dp"
+                android:layout_marginStart="22dp"
+                android:layout_marginLeft="22dp"
+                android:background="@drawable/circleblue"
+                android:gravity="center"
+                android:text="2"
+                app:layout_constraintStart_toEndOf="@+id/one"
+                app:layout_constraintTop_toTopOf="parent" />
+
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="411dp"
+        android:layout_height="74dp"
+        android:background="#F0F0F0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/constraintLayout6">
+
+        <TextView
+            android:id="@+id/requisition3"
+            android:layout_width="wrap_content"
+            android:layout_height="14dp"
+            android:layout_marginStart="132dp"
+            android:layout_marginLeft="132dp"
+            android:layout_marginTop="7dp"
+            android:gravity="center"
+            android:text="ADD ITEMS"
+            android:textColor="#000000"
+            android:textSize="10sp"
+            app:layout_constraintStart_toEndOf="@+id/textView8"
+            app:layout_constraintTop_toBottomOf="@+id/imageView8" />
+
+        <TextView
+            android:id="@+id/requisition"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="32dp"
+            android:layout_marginLeft="32dp"
+            android:layout_marginTop="16dp"
+            android:gravity="center"
+            android:text="ITEMS"
+            android:textColor="#000000"
+            android:textSize="12sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/textView8"
+            android:layout_width="wrap_content"
+            android:layout_height="12dp"
+            android:layout_marginStart="32dp"
+            android:layout_marginLeft="32dp"
+            android:layout_marginTop="4dp"
+            android:text="Lorem ipsum dolor sit amet, "
+            android:textSize="10sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/requisition" />
+
+        <TextView
+            android:id="@+id/textView18"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="32dp"
+            android:layout_marginLeft="32dp"
+            android:text="consectetur adipiscing elit."
+            android:textSize="10sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView8" />
+
+        <ImageView
+            android:id="@+id/imageView8"
+            android:layout_width="23dp"
+            android:layout_height="22dp"
+            android:layout_marginStart="238dp"
+            android:layout_marginLeft="238dp"
+            android:layout_marginTop="15dp"
+            app:layout_constraintStart_toEndOf="@+id/requisition"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/plus" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <ListView
+        android:layout_width="405dp"
+        android:layout_height="505dp"
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="154dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+
+
