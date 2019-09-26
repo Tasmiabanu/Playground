@@ -1,0 +1,960 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    tools:context=".RequestViewNew">
+
+
+    <ScrollView
+        android:id="@+id/scrollView2"
+        android:layout_width="405dp"
+        android:layout_height="545dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:id="@+id/linearLayout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:id="@+id/constraintLayout7"
+                android:layout_width="402dp"
+                android:layout_height="64dp"
+                android:layout_marginTop="3dp"
+                android:background="#FFFFFF"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent">
+
+                <ImageView
+                    android:id="@+id/home"
+                    android:layout_width="38dp"
+                    android:layout_height="39dp"
+                    android:layout_marginStart="31dp"
+                    android:layout_marginLeft="31dp"
+                    android:layout_marginTop="12dp"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:srcCompat="@drawable/homee" />
+
+                <ImageView
+                    android:id="@+id/message"
+                    android:layout_width="38dp"
+                    android:layout_height="38dp"
+                    android:layout_marginStart="26dp"
+                    android:layout_marginLeft="26dp"
+                    android:layout_marginTop="12dp"
+                    app:layout_constraintStart_toEndOf="@+id/home"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:srcCompat="@drawable/message" />
+
+                <ImageView
+                    android:id="@+id/calender"
+                    android:layout_width="38dp"
+                    android:layout_height="38dp"
+                    android:layout_marginStart="29dp"
+                    android:layout_marginLeft="29dp"
+                    android:layout_marginTop="13dp"
+                    app:layout_constraintStart_toEndOf="@+id/message"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:srcCompat="@drawable/dates" />
+
+                <ImageView
+                    android:id="@+id/pencil"
+                    android:layout_width="38dp"
+                    android:layout_height="38dp"
+                    android:layout_marginStart="30dp"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginTop="12dp"
+                    app:layout_constraintStart_toEndOf="@+id/calender"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:srcCompat="@drawable/pencil" />
+
+                <ImageView
+                    android:id="@+id/arrow"
+                    android:layout_width="38dp"
+                    android:layout_height="38dp"
+                    android:layout_marginStart="31dp"
+                    android:layout_marginLeft="31dp"
+                    android:layout_marginTop="10dp"
+                    app:layout_constraintStart_toEndOf="@+id/pencil"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:srcCompat="@drawable/arroww" />
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:id="@+id/constraintLayout8"
+                android:layout_width="404dp"
+                android:layout_height="86dp"
+                android:layout_marginTop="8dp"
+                android:background="#245070"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent">
+
+                <TextView
+                    android:id="@+id/Requisition"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="30dp"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginTop="16dp"
+                    android:text="REQUEST VIEW"
+                    android:textColor="#FFFFFF"
+                    android:textSize="12sp"
+                    android:textStyle="bold"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <TextView
+                    android:id="@+id/data"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="30dp"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginTop="5dp"
+                    android:text="Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+                    android:textColor="#FFFFFF"
+                    android:textSize="10sp"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/Requisition" />
+
+                <TextView
+                    android:id="@+id/datas"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="30dp"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginTop="1dp"
+                    android:text=" Mauris mattis, tortor sit amet tempor vehicula."
+                    android:textColor="#FFFFFF"
+                    android:textSize="10sp"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/data" />
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:id="@+id/constraintLayout9"
+                android:layout_width="match_parent"
+                android:layout_height="66dp"
+                android:background="#FFFFFF">
+
+                <TextView
+                    android:id="@+id/request"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="27dp"
+                    android:layout_marginLeft="27dp"
+                    android:layout_marginTop="16dp"
+                    android:text="REQUEST#"
+                    android:textColor="#909090"
+                    android:textSize="12sp"
+                    android:textStyle="bold"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <TextView
+                    android:id="@+id/submitted"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="52dp"
+                    android:layout_marginLeft="52dp"
+                    android:layout_marginTop="16dp"
+                    android:text="SUBMITTED"
+                    android:textColor="#909090"
+                    android:textSize="12sp"
+                    android:textStyle="bold"
+                    app:layout_constraintStart_toEndOf="@+id/request"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <TextView
+                    android:id="@+id/titles"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="27dp"
+                    android:layout_marginLeft="27dp"
+                    android:layout_marginTop="12dp"
+                    android:text="TextView"
+                    android:textColor="#000000"
+                    android:textSize="8sp"
+                    android:textStyle="bold"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/request" />
+
+                <TextView
+                    android:id="@+id/dates"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="84dp"
+                    android:layout_marginLeft="84dp"
+                    android:layout_marginTop="12dp"
+                    android:text="TextView"
+                    android:textColor="#000000"
+                    android:textSize="8sp"
+                    android:textStyle="bold"
+                    app:layout_constraintStart_toEndOf="@+id/titles"
+                    app:layout_constraintTop_toBottomOf="@+id/submitted" />
+
+                <TextView
+                    android:id="@+id/statuses"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="61dp"
+                    android:layout_marginLeft="61dp"
+                    android:layout_marginTop="12dp"
+                    android:text="TextView"
+                    android:textColor="#000000"
+                    android:textSize="8sp"
+                    android:textStyle="bold"
+                    app:layout_constraintStart_toEndOf="@+id/dates"
+                    app:layout_constraintTop_toBottomOf="@+id/status" />
+
+                <TextView
+                    android:id="@+id/status"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="41dp"
+                    android:layout_marginLeft="41dp"
+                    android:layout_marginTop="16dp"
+                    android:text="STATUS"
+
+                    android:textColor="#909090"
+                    android:textSize="12sp"
+                    android:textStyle="bold"
+                    app:layout_constraintStart_toEndOf="@+id/submitted"
+                    app:layout_constraintTop_toTopOf="parent" />
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="1271dp"
+                android:layout_marginTop="16dp"
+                android:background="#FFFFFF"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent">
+
+                <ImageView
+                    android:id="@+id/imageView12"
+                    android:layout_width="27dp"
+                    android:layout_height="27dp"
+                    android:layout_marginStart="24dp"
+                    android:layout_marginLeft="24dp"
+                    android:layout_marginBottom="8dp"
+                    app:layout_constraintBottom_toBottomOf="@+id/textView69"
+                    app:layout_constraintStart_toStartOf="@+id/textView69"
+                    app:srcCompat="@drawable/boy" />
+
+                <TextView
+                    android:id="@+id/number"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="104dp"
+                    android:layout_marginLeft="104dp"
+                    android:layout_marginTop="84dp"
+                    android:text="01"
+                    android:textColor="#707070"
+                    android:textSize="10sp"
+                    app:layout_constraintStart_toEndOf="@+id/dataItem2"
+                    app:layout_constraintTop_toBottomOf="@+id/price1" />
+
+                <TextView
+                    android:id="@+id/price1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="80dp"
+                    android:layout_marginLeft="80dp"
+                    android:layout_marginTop="8dp"
+                    android:text="Rs. 45, 000"
+                    android:textColor="#707070"
+                    android:textSize="10sp"
+                    app:layout_constraintStart_toEndOf="@+id/dataItem"
+                    app:layout_constraintTop_toBottomOf="@+id/date2" />
+
+                <TextView
+                    android:id="@+id/date"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="80dp"
+                    android:layout_marginLeft="80dp"
+                    android:layout_marginTop="5dp"
+                    android:text="10 Jul 2019"
+                    android:textColor="#707070"
+                    android:textSize="10sp"
+                    app:layout_constraintStart_toEndOf="@+id/dataItem2"
+                    app:layout_constraintTop_toBottomOf="@+id/num2" />
+
+                <TextView
+                    android:id="@+id/num"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="104dp"
+                    android:layout_marginLeft="104dp"
+                    android:layout_marginTop="148dp"
+                    android:text="01"
+                    android:textColor="#707070"
+                    android:textSize="10sp"
+                    app:layout_constraintStart_toEndOf="@+id/dataItem"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <TextView
+                    android:id="@+id/note"
+                    android:layout_width="wrap_content"
+                    android:layout_height="12dp"
+
+                    android:layout_marginStart="27dp"
+                    android:layout_marginLeft="27dp"
+                    android:layout_marginTop="16dp"
+                    android:text="NOTE"
+                    android:textColor="#292727"
+                    android:textSize="12sp"
+                    android:textStyle="bold"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <TextView
+                    android:id="@+id/dataItem"
+                    android:layout_width="177dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="27dp"
+                    android:layout_marginLeft="27dp"
+                    android:layout_marginTop="7dp"
+                    android:text='IBM ThinkServer TS150 Tower Server With Max. Processor 1 x Intel Xeon E3 (Quad Core) E3-1225 v5"(3.3 GHz /Cache 8 MB)... / STD MEMORY 8GB X 1/ MAX. MEMORY 64GB 4 Slots/HARD DRIVE 1 X 1TB SATA 3.5" 7.2k SATA / STD. HDD BAY/ 3 bay MAX. HDD BAY upto 4 x 3.5" +1 x 2.5" bay/ OPTICAL Multi Burner/Integrated RAID 0,1,5,10 (RAID 121i).'
+                    android:textColor="#747474"
+                    android:textSize="10sp"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/Items" />
+
+                <!--<view-->
+                <!--android:layout_width="398dp"-->
+                <!--android:layout_height="0.5dp"-->
+                <!--android:layout_gravity="center_horizontal"-->
+                <!--android:layout_marginTop="7dp"-->
+                <!--android:background="#FDF6F8F9"-->
+                <!--app:layout_constraintStart_toStartOf="parent"-->
+                <!--app:layout_constraintTop_toBottomOf="@+id/textView23" />-->
+
+
+                <TextView
+                    android:id="@+id/Items"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="27dp"
+                    android:layout_marginLeft="27dp"
+                    android:layout_marginTop="14dp"
+                    android:text="ITEMS"
+                    android:textColor="#292727"
+                    android:textSize="12sp"
+                    android:textStyle="bold"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/Type" />
+
+
+                <TextView
+                    android:id="@+id/Type"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="27dp"
+                    android:layout_marginLeft="27dp"
+                    android:text="REQUEST TYPE - SELF"
+                    android:textColor="#747474"
+                    android:textSize="10sp"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/NoteData" />
+
+                <TextView
+                    android:id="@+id/NoteData"
+                    android:layout_width="244dp"
+                    android:layout_height="60dp"
+                    android:layout_marginStart="27dp"
+                    android:layout_marginLeft="27dp"
+                    android:layout_marginTop="7dp"
+                    android:text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris mattis, tortor sit amet tempor vehicula, tortor ipsum faucibus nunc, id aliquam lacus odio nec magna. Cras a ipsum placerat, efficitur nibh sed, iaculis elit. Mauris semper tempor facilisis."
+                    android:textColor="#505050"
+                    android:textSize="10sp"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/note" />
+
+                <TextView
+                    android:id="@+id/dataItem2"
+                    android:layout_width="177dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="27dp"
+                    android:layout_marginLeft="27dp"
+                    android:layout_marginTop="18dp"
+                    android:text="Lenovo ThinkServer TS450 (PN:70M2001VIH) With Max. Processor 1 x Intel Xeon E3 (Quad Core) E3-1225 v5”(3.3 GHz /Cache 8 MB)/ STD MEMORY 8GB X 1 MAX. MEMORY 64GB; 4 DIMM Memory Slots/ HARD DRIVE Open Bay/ 2.5” SAS/SATA HS Bays (8 bay MAX. HDD BAY upto 8 x 2.5” bay MAX. HDD BAY upto 16x2.5”)/OPTICAL Multi Burner/ PCIe RAID 0,1,10 (RAID 520i). Supports SAS SATA drives/Power Supply Standard (Inbuilt) 1 x 450W Power Supply /Max: 2"
+                    android:textColor="#747474"
+                    android:textSize="10sp"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/dataItem" />
+
+                <TextView
+                    android:id="@+id/dataItem3"
+                    android:layout_width="157dp"
+                    android:layout_height="74dp"
+                    android:layout_marginStart="27dp"
+                    android:layout_marginLeft="27dp"
+                    android:layout_marginTop="18dp"
+                    android:text="IBM X3300M4 Server With x3300M4/ Part NO:7382IA4/ Intel Xeon E5 1230v2 1.8 GHz,10 MB,1066MHz/ 1x 8GB RAM/ 1x500GB SATA HDD/ 3.5Simple-Swap/ MULTI BUTRNER"
+                    android:textColor="#747474"
+                    android:textSize="10sp"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/dataItem2" />
+
+                <TextView
+                    android:id="@+id/num2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="104dp"
+                    android:layout_marginLeft="104dp"
+                    android:layout_marginTop="84dp"
+                    android:text="01"
+                    android:textColor="#707070"
+                    android:textSize="10sp"
+                    app:layout_constraintStart_toEndOf="@+id/dataItem2"
+                    app:layout_constraintTop_toBottomOf="@+id/price1" />
+
+                <TextView
+                    android:id="@+id/date2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="77dp"
+                    android:layout_marginLeft="77dp"
+                    android:layout_marginTop="7dp"
+                    android:text="10 Jul 2019"
+                    android:textColor="#707070"
+                    android:textSize="10sp"
+                    app:layout_constraintStart_toEndOf="@+id/dataItem"
+                    app:layout_constraintTop_toBottomOf="@+id/num" />
+
+                <TextView
+                    android:id="@+id/price2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="83dp"
+                    android:layout_marginLeft="83dp"
+                    android:layout_marginTop="7dp"
+                    android:text="Rs. 45, 000"
+                    android:textColor="#707070"
+                    android:textSize="10sp"
+                    app:layout_constraintStart_toEndOf="@+id/dataItem2"
+                    app:layout_constraintTop_toBottomOf="@+id/date" />
+
+                <TextView
+                    android:id="@+id/textView46"
+                    android:layout_width="177dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="27dp"
+                    android:layout_marginLeft="27dp"
+                    android:layout_marginTop="18dp"
+                    android:text="IBM Lenovo ThinkServer RD450 Rack Server (PN:70Q90059IH) with 1 x Intel® Xeon® E5-2620v4 (2.1GHz/8C/20MB/85W/2133Mhz)/Max: 2 Processors/ STD MEMORY 16GB X 1 MAX. MEMORY 1 TB ;16 Slots/ HARD DRIVE : Open Bay (2.5” HOT Swap SAS/SATA STD. HDD BAY 8 bay / MAX. HDD BAY 16 bay with optical bay/24 bay without optical bay) / OPTICAL Multi Burner/ Integrated RAID 0,1,10 (RAID 110i). Supports only SATA drive/ Power Supply Standard (Inbuilt) 1 x 750W Power Supply Max: 2"
+                    android:textColor="#747474"
+                    android:textSize="10sp"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/dataItem3" />
+
+                <TextView
+                    android:id="@+id/date3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="100dp"
+                    android:layout_marginLeft="100dp"
+                    android:text="10 Jul 2019"
+                    android:textColor="#747474"
+                    android:textSize="10sp"
+                    app:layout_constraintStart_toEndOf="@+id/dataItem3"
+                    app:layout_constraintTop_toBottomOf="@+id/num3" />
+
+                <TextView
+                    android:id="@+id/num3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="124dp"
+                    android:layout_marginLeft="124dp"
+                    android:layout_marginTop="55dp"
+                    android:text="01"
+                    android:textColor="#747474"
+                    android:textSize="10sp"
+                    app:layout_constraintStart_toEndOf="@+id/dataItem3"
+                    app:layout_constraintTop_toBottomOf="@+id/price2" />
+
+                <TextView
+                    android:id="@+id/price3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="100dp"
+                    android:layout_marginLeft="100dp"
+                    android:text="Rs. 45, 000"
+                    android:textColor="#747474"
+                    android:textSize="10sp"
+                    app:layout_constraintStart_toEndOf="@+id/dataItem3"
+                    app:layout_constraintTop_toBottomOf="@+id/date3" />
+
+                <TextView
+                    android:id="@+id/num4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="92dp"
+                    android:layout_marginLeft="92dp"
+                    android:layout_marginTop="68dp"
+                    android:text="01"
+                    android:textColor="#747474"
+                    android:textSize="10sp"
+                    app:layout_constraintStart_toEndOf="@+id/textView46"
+                    app:layout_constraintTop_toBottomOf="@+id/price3" />
+
+                <TextView
+                    android:id="@+id/date4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="80dp"
+                    android:layout_marginLeft="80dp"
+                    android:text="10 Jul 2019"
+                    android:textColor="#747474"
+                    android:textSize="10sp"
+                    app:layout_constraintStart_toEndOf="@+id/textView46"
+                    app:layout_constraintTop_toBottomOf="@+id/num4" />
+
+                <TextView
+                    android:id="@+id/price4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="80dp"
+                    android:layout_marginLeft="80dp"
+                    android:text="Rs. 45, 000"
+                    android:textColor="#747474"
+                    android:textSize="10sp"
+                    app:layout_constraintStart_toEndOf="@+id/textView46"
+                    app:layout_constraintTop_toBottomOf="@+id/date4" />
+
+                <TextView
+                    android:id="@+id/textView55"
+                    android:layout_width="177dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="27dp"
+                    android:layout_marginLeft="27dp"
+                    android:layout_marginTop="18dp"
+                    android:text="daptec 128 MB Raid Controller Pair. Pci-e SAS/SATA"
+                    android:textColor="#747474"
+                    android:textSize="10sp"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/textView46" />
+
+                <TextView
+                    android:id="@+id/textView56"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="100dp"
+                    android:layout_marginLeft="100dp"
+                    android:layout_marginTop="76dp"
+                    android:text="01"
+                    android:textColor="#747474"
+                    android:textSize="10sp"
+                    app:layout_constraintStart_toEndOf="@+id/textView55"
+                    app:layout_constraintTop_toBottomOf="@+id/price4" />
+
+                <TextView
+                    android:id="@+id/textView57"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="76dp"
+                    android:layout_marginLeft="76dp"
+                    android:text="10 Jul 2019"
+                    android:textColor="#747474"
+                    android:textSize="10sp"
+                    app:layout_constraintStart_toEndOf="@+id/textView55"
+                    app:layout_constraintTop_toBottomOf="@+id/textView56" />
+
+                <TextView
+                    android:id="@+id/textView58"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="80dp"
+                    android:layout_marginLeft="80dp"
+                    android:text="Rs. 45, 000"
+                    android:textColor="#747474"
+                    android:textSize="10sp"
+                    app:layout_constraintStart_toEndOf="@+id/textView55"
+                    app:layout_constraintTop_toBottomOf="@+id/textView57" />
+
+                <TextView
+                    android:id="@+id/textView59"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="27dp"
+                    android:layout_marginLeft="27dp"
+                    android:layout_marginTop="13dp"
+                    android:text="ATTACHMENTS"
+                    android:textColor="#000000"
+                    android:textSize="12sp"
+                    android:textStyle="bold"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/textView55" />
+
+                <TextView
+                    android:id="@+id/textView36"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="32dp"
+                    android:layout_marginLeft="32dp"
+                    android:layout_marginTop="8dp"
+                    android:text="abc0037429023.doc"
+                    android:textColor="#595959"
+                    android:textSize="10sp"
+                    app:layout_constraintBottom_toTopOf="@+id/textView48"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/textView59" />
+
+                <TextView
+                    android:id="@+id/textView48"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="32dp"
+                    android:layout_marginLeft="32dp"
+                    android:layout_marginTop="1dp"
+                    android:text="Lorem ipsum dolor sit amet, consectetur…"
+                    android:textColor="#747474"
+                    android:textSize="10sp"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/textView36" />
+
+                <TextView
+                    android:id="@+id/textView60"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="60dp"
+                    android:layout_marginLeft="60dp"
+                    android:layout_marginTop="38dp"
+                    android:text="976 KB"
+                    android:textSize="10sp"
+                    app:layout_constraintStart_toEndOf="@+id/textView36"
+                    app:layout_constraintTop_toBottomOf="@+id/textView55" />
+
+                <TextView
+                    android:id="@+id/textView63"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="32dp"
+                    android:layout_marginLeft="32dp"
+                    android:layout_marginTop="21dp"
+                    android:text="abc003745gb9023.doc"
+                    android:textColor="#595959"
+                    android:textSize="10sp"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/textView48" />
+
+                <TextView
+                    android:id="@+id/textView64"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="32dp"
+                    android:layout_marginLeft="32dp"
+                    android:layout_marginTop="4dp"
+                    android:text="Lorem ipsum dolor sit amet, consectetur…"
+                    android:textColor="#747474"
+                    android:textSize="10sp"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/textView63" />
+
+                <TextView
+                    android:id="@+id/textView65"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="50dp"
+                    android:layout_marginLeft="50dp"
+                    android:layout_marginTop="20dp"
+                    android:text="988 KB"
+                    android:textColor="#595959"
+                    android:textSize="10sp"
+                    app:layout_constraintStart_toEndOf="@+id/textView63"
+                    app:layout_constraintTop_toBottomOf="@+id/textView48" />
+
+                <TextView
+                    android:id="@+id/textView66"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="27dp"
+                    android:layout_marginLeft="27dp"
+                    android:layout_marginTop="24dp"
+                    android:text="INVITEES"
+                    android:textColor="#000000"
+                    android:textSize="12sp"
+                    android:textStyle="bold"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/textView64" />
+
+                <TextView
+                    android:id="@+id/textView67"
+                    android:layout_width="220dp"
+                    android:layout_height="39dp"
+                    android:layout_marginStart="27dp"
+                    android:layout_marginLeft="27dp"
+                    android:layout_marginTop="5dp"
+                    android:background="@drawable/borderpeople"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/textView59" />
+
+                <TextView
+                    android:id="@+id/textView68"
+                    android:layout_width="220dp"
+                    android:layout_height="39dp"
+                    android:layout_marginStart="27dp"
+                    android:layout_marginLeft="27dp"
+                    android:layout_marginTop="9dp"
+                    android:background="@drawable/borderpeople"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/textView67" />
+
+                <TextView
+                    android:id="@+id/textView69"
+                    android:layout_width="280dp"
+                    android:layout_height="45dp"
+                    android:layout_marginStart="24dp"
+                    android:layout_marginLeft="24dp"
+                    android:layout_marginTop="12dp"
+                    android:background="@drawable/bordertext"
+                    app:layout_constraintBottom_toTopOf="@+id/textView70"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/textView66" />
+
+                <TextView
+                    android:id="@+id/textView70"
+                    android:layout_width="280dp"
+                    android:layout_height="45dp"
+                    android:layout_marginStart="24dp"
+                    android:layout_marginLeft="24dp"
+                    android:layout_marginTop="8dp"
+                    android:background="@drawable/bordertext"
+                    app:layout_constraintBottom_toTopOf="@+id/textView71"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/textView69" />
+
+                <ImageView
+                    android:id="@+id/imageView10"
+                    android:layout_width="27dp"
+                    android:layout_height="27dp"
+                    android:layout_marginStart="24dp"
+                    android:layout_marginLeft="24dp"
+                    android:layout_marginTop="8dp"
+                    app:layout_constraintStart_toStartOf="@+id/textView73"
+                    app:layout_constraintTop_toTopOf="@+id/textView73"
+                    app:srcCompat="@drawable/boy" />
+
+                <TextView
+                    android:id="@+id/textView71"
+                    android:layout_width="280dp"
+                    android:layout_height="45dp"
+                    android:layout_marginStart="24dp"
+                    android:layout_marginLeft="24dp"
+                    android:layout_marginTop="8dp"
+                    android:layout_marginBottom="60dp"
+                    android:background="@drawable/bordertext"
+                    app:layout_constraintBottom_toTopOf="@+id/textView72"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/textView70" />
+
+                <TextView
+                    android:id="@+id/textView72"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="28dp"
+                    android:layout_marginLeft="28dp"
+                    android:layout_marginBottom="8dp"
+                    android:text="APPROVAL(S)"
+                    android:textColor="#000000"
+                    android:textSize="12sp"
+                    android:textStyle="bold"
+                    app:layout_constraintBottom_toTopOf="@+id/textView73"
+                    app:layout_constraintStart_toStartOf="parent" />
+
+                <TextView
+                    android:id="@+id/textView73"
+                    android:layout_width="280dp"
+                    android:layout_height="45dp"
+                    android:layout_marginStart="28dp"
+                    android:layout_marginLeft="28dp"
+                    android:layout_marginBottom="52dp"
+                    android:background="@drawable/bordertext"
+                    app:layout_constraintBottom_toTopOf="@+id/textView74"
+                    app:layout_constraintStart_toStartOf="parent" />
+
+                <TextView
+                    android:id="@+id/textView74"
+                    android:layout_width="280dp"
+                    android:layout_height="45dp"
+                    android:layout_marginStart="27dp"
+                    android:layout_marginLeft="27dp"
+                    android:layout_marginTop="8dp"
+                    android:background="@drawable/bordertext"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/textView73" />
+
+                <TextView
+                    android:id="@+id/textView75"
+                    android:layout_width="60dp"
+                    android:layout_height="17dp"
+                    android:layout_marginStart="32dp"
+                    android:layout_marginLeft="32dp"
+                    android:text="Daisy Lake"
+                    android:textColor="#505050"
+                    android:textSize="12sp"
+                    app:layout_constraintBottom_toTopOf="@+id/textView76"
+                    app:layout_constraintStart_toEndOf="@+id/imageView13" />
+
+                <TextView
+                    android:id="@+id/textView76"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="32dp"
+                    android:layout_marginLeft="32dp"
+                    android:layout_marginBottom="8dp"
+                    android:text="Lorem ipsum doler sit amet."
+                    android:textColor="#505050"
+                    android:textSize="10sp"
+                    app:layout_constraintBottom_toBottomOf="@+id/textView70"
+                    app:layout_constraintStart_toEndOf="@+id/imageView13" />
+
+                <TextView
+                    android:id="@+id/textView77"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="32dp"
+                    android:layout_marginLeft="32dp"
+                    android:text="Mark Smith"
+                    android:textColor="#505050"
+                    android:textSize="12sp"
+                    app:layout_constraintBottom_toTopOf="@+id/textView78"
+                    app:layout_constraintStart_toEndOf="@+id/imageView9" />
+
+                <TextView
+                    android:id="@+id/textView78"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="32dp"
+                    android:layout_marginLeft="32dp"
+                    android:layout_marginBottom="8dp"
+                    android:text="Lorem ipsum doler sit amet."
+                    android:textColor="#505050"
+                    android:textSize="10sp"
+                    app:layout_constraintBottom_toBottomOf="@+id/textView71"
+                    app:layout_constraintStart_toEndOf="@+id/imageView9" />
+
+                <TextView
+                    android:id="@+id/textView79"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="32dp"
+                    android:layout_marginLeft="32dp"
+                    android:layout_marginTop="8dp"
+                    android:text="Luke Ray"
+                    android:textColor="#505050"
+                    android:textSize="12sp"
+                    app:layout_constraintStart_toEndOf="@+id/imageView12"
+                    app:layout_constraintTop_toTopOf="@+id/textView69" />
+
+                <TextView
+                    android:id="@+id/textView80"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="32dp"
+                    android:layout_marginLeft="32dp"
+                    android:layout_marginBottom="8dp"
+                    android:text="Lorem ipsum doler sit amet."
+                    android:textColor="#505050"
+                    android:textSize="10sp"
+                    app:layout_constraintBottom_toBottomOf="@+id/textView69"
+                    app:layout_constraintStart_toEndOf="@+id/imageView12" />
+
+                <TextView
+                    android:id="@+id/textView81"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="32dp"
+                    android:layout_marginLeft="32dp"
+                    android:text="John Campbell"
+                    android:textColor="#505050"
+                    android:textSize="12sp"
+                    app:layout_constraintBottom_toTopOf="@+id/textView82"
+                    app:layout_constraintStart_toEndOf="@+id/imageView10" />
+
+                <TextView
+                    android:id="@+id/textView82"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="32dp"
+                    android:layout_marginLeft="32dp"
+                    android:layout_marginBottom="8dp"
+                    android:text="Lorem ipsum doler sit amet."
+                    android:textColor="#505050"
+                    android:textSize="10sp"
+                    app:layout_constraintBottom_toBottomOf="@+id/textView73"
+                    app:layout_constraintStart_toEndOf="@+id/imageView10" />
+
+                <TextView
+                    android:id="@+id/textView83"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="32dp"
+                    android:layout_marginLeft="32dp"
+                    android:layout_marginTop="8dp"
+                    android:text="Kate Gill"
+                    android:textColor="#505050"
+                    android:textSize="12sp"
+                    app:layout_constraintStart_toEndOf="@+id/imageView14"
+                    app:layout_constraintTop_toTopOf="@+id/textView74" />
+
+                <TextView
+                    android:id="@+id/textView84"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="32dp"
+                    android:layout_marginLeft="32dp"
+                    android:layout_marginTop="4dp"
+                    android:text="Lorem ipsum doler sit amet."
+                    android:textColor="#505050"
+                    android:textSize="10sp"
+                    app:layout_constraintStart_toEndOf="@+id/imageView14"
+                    app:layout_constraintTop_toBottomOf="@+id/textView83" />
+
+                <ImageView
+                    android:id="@+id/imageView9"
+                    android:layout_width="27dp"
+                    android:layout_height="27dp"
+                    android:layout_marginStart="24dp"
+                    android:layout_marginLeft="24dp"
+                    android:layout_marginTop="8dp"
+                    app:layout_constraintStart_toStartOf="@+id/textView71"
+                    app:layout_constraintTop_toTopOf="@+id/textView71"
+                    app:srcCompat="@drawable/boy" />
+
+                <ImageView
+                    android:id="@+id/imageView13"
+                    android:layout_width="27dp"
+                    android:layout_height="27dp"
+                    android:layout_marginStart="24dp"
+                    android:layout_marginLeft="24dp"
+                    android:layout_marginTop="8dp"
+                    app:layout_constraintStart_toStartOf="@+id/textView70"
+                    app:layout_constraintTop_toTopOf="@+id/textView70"
+                    app:srcCompat="@drawable/girl" />
+
+                <ImageView
+                    android:id="@+id/imageView14"
+                    android:layout_width="27dp"
+                    android:layout_height="27dp"
+                    android:layout_marginStart="24dp"
+                    android:layout_marginLeft="24dp"
+                    android:layout_marginTop="8dp"
+                    app:layout_constraintStart_toStartOf="@+id/textView74"
+                    app:layout_constraintTop_toTopOf="@+id/textView74"
+                    app:srcCompat="@drawable/girl" />
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
