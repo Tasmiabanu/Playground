@@ -45,7 +45,6 @@ public class request_page extends AppCompatActivity
     ListView listView;
     Button request;
 
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -62,8 +61,6 @@ public class request_page extends AppCompatActivity
         request_model.setRequestDate("06 Jul 2019");
         request_models.add(request_model);
 
-
-
         request_model=new Request_model();
         request_model.setReqNumber("PUR-057");
         request_model.setRequest_status(Request_status.AWAITING_APPROVAL);
@@ -78,13 +75,23 @@ public class request_page extends AppCompatActivity
 
         request_model=new Request_model();
         request_model.setReqNumber("PUR-057");
+        request_model.setRequest_status(Request_status.REJECTED);
+        request_model.setRequestDate("07 Jun 2019");
+        request_models.add(request_model);
+
+        request_model=new Request_model();
+        request_model.setReqNumber("PUR-057");
         request_model.setRequest_status(Request_status.DRAFT);
         request_model.setRequestDate("08 JuL 2019");
         request_models.add(request_model);
 
+        request_model=new Request_model();
+        request_model.setReqNumber("PUR-057");
+        request_model.setRequest_status(Request_status.REJECTED);
+        request_model.setRequestDate("07 Jun 2019");
+        request_models.add(request_model);
+
         listView= findViewById(R.id.listView);
-
-
 //        row.setOnClickListener(new AdapterView.OnClickListener() {
 //            @Override
 //            public void onClick(View view) {

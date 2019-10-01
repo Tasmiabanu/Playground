@@ -39,10 +39,9 @@ ImageView i1;
                     i4.setVisibility(View.VISIBLE);
                 }
                 else{
-                    Intent intent=new Intent(getApplicationContext(),request_page.class);
+                    Intent intent=new Intent(getApplicationContext(),FragmentRequestPage.class);
                     startActivity(intent);
                 }
-
 
 
             }
