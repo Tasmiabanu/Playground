@@ -22,6 +22,8 @@ public class FragmentRequestPage extends AppCompatActivity
         RequestItems myFragment = new RequestItems();
         myFragment.setDeligatesInterface(this);
         FragmentManager fragmentManager = getSupportFragmentManager();
+        //to go back at once from page
+        fragmentManager.popBackStackImmediate(null,FragmentManager.POP_BACK_STACK_INCLUSIVE);
         FragmentTransaction fragmentTransaction = fragmentManager.beginTransaction();
         //  fragmentTransaction.add(R.id.fragmentD, myFragment);
         fragmentTransaction.add(R.id.fragment, myFragment);
@@ -76,6 +78,9 @@ public class FragmentRequestPage extends AppCompatActivity
         else {
             Fragment myFragment1 = new RequestViewNew();
             FragmentManager fragmentManager = getSupportFragmentManager();
+
+            fragmentManager.popBackStackImmediate(null,FragmentManager.POP_BACK_STACK_INCLUSIVE);
+
             FragmentTransaction fragmentTransaction = fragmentManager.beginTransaction();
             fragmentTransaction.replace(R.id.fragment2, myFragment1);
             fragmentTransaction.addToBackStack(null);
