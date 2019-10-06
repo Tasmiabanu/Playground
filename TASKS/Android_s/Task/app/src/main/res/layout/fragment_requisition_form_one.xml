@@ -1,0 +1,335 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/form1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    tools:context=".RequisitionFormOne">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="0dp"
+        android:layout_height="561dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/constraintLayout5">
+
+        <Button
+            android:id="@+id/button"
+            android:layout_width="79dp"
+            android:layout_height="23dp"
+            android:layout_marginStart="112dp"
+            android:layout_marginLeft="112dp"
+            android:layout_marginTop="99dp"
+            android:background="@drawable/buttonborder"
+            android:text="NEXT->"
+            android:textColor="#FFFFFF"
+            app:layout_constraintStart_toEndOf="@+id/SaveDraft"
+            app:layout_constraintTop_toBottomOf="@+id/option2" />
+
+        <TextView
+            android:id="@+id/SaveDraft"
+            android:layout_width="85dp"
+            android:layout_height="17dp"
+            android:layout_marginStart="38dp"
+            android:layout_marginLeft="38dp"
+            android:layout_marginTop="45dp"
+            android:text="SAVE DRAFT"
+            android:textColor="#595959"
+            android:textStyle="bold"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/radiobutton3" />
+
+        <View
+            android:layout_width="74dp"
+            android:layout_height="2dp"
+            android:layout_gravity="center"
+            android:layout_marginStart="42dp"
+            android:layout_marginLeft="42dp"
+            android:background="#595959"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/SaveDraft" />
+
+        <TextView
+            android:id="@+id/option3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="15dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="37dp"
+            android:text="SOMEONE ELSE"
+            android:textColor="#747474"
+            android:textSize="12sp"
+            app:layout_constraintStart_toEndOf="@+id/radiobutton3"
+            app:layout_constraintTop_toBottomOf="@+id/option2" />
+
+        <TextView
+            android:id="@+id/radiobutton3"
+            android:layout_width="17dp"
+            android:layout_height="17dp"
+            android:layout_marginStart="38dp"
+            android:layout_marginLeft="38dp"
+            android:layout_marginTop="36dp"
+            android:background="@drawable/borderblack"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/radiobutton2" />
+
+        <TextView
+            android:id="@+id/option2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="15dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="32dp"
+            android:text="TEAM / DEPARTMENT / BRANCH"
+            android:textColor="#747474"
+            android:textSize="12sp"
+            app:layout_constraintStart_toEndOf="@+id/radiobutton2"
+            app:layout_constraintTop_toBottomOf="@+id/option1" />
+
+        <TextView
+            android:id="@+id/radiobutton2"
+            android:layout_width="17dp"
+            android:layout_height="17dp"
+            android:layout_marginStart="38dp"
+            android:layout_marginLeft="38dp"
+            android:layout_marginTop="32dp"
+            android:background="@drawable/borderblack"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/radiobutton1" />
+
+        <TextView
+            android:id="@+id/option1"
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:layout_marginStart="15dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="32dp"
+            android:text="SELF"
+            android:textColor="#747474"
+            android:textSize="12sp"
+            app:layout_constraintStart_toEndOf="@+id/radiobutton1"
+            app:layout_constraintTop_toBottomOf="@+id/textView9" />
+
+        <TextView
+            android:id="@+id/radiobutton1"
+            android:layout_width="17dp"
+            android:layout_height="16dp"
+            android:layout_marginStart="38dp"
+            android:layout_marginLeft="38dp"
+            android:layout_marginTop="32dp"
+            android:background="@drawable/borderblack"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView9" />
+
+        <TextView
+            android:id="@+id/textView9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="38dp"
+            android:layout_marginLeft="38dp"
+            android:text=" Mauris mattis, tortor sit amet tempor vehicula."
+            android:textColor="#747474"
+            android:textSize="10sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/text1" />
+
+        <TextView
+            android:id="@+id/text1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="38dp"
+            android:layout_marginLeft="38dp"
+            android:layout_marginTop="4dp"
+            android:text="Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+            android:textSize="10sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView7" />
+
+        <TextView
+            android:id="@+id/textView7"
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:layout_marginStart="38dp"
+            android:layout_marginLeft="38dp"
+            android:layout_marginTop="41dp"
+            android:text="REQUEST TYPE"
+            android:textColor="#000000"
+            android:textSize="12sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/editText" />
+
+        <EditText
+            android:id="@+id/editText"
+            android:layout_width="254dp"
+            android:layout_height="49dp"
+            android:layout_marginStart="38dp"
+            android:layout_marginLeft="38dp"
+            android:layout_marginTop="19dp"
+            android:background="@drawable/bordertext"
+            android:ems="10"
+            android:gravity="start|top"
+            android:hint="Edit-Text"
+            android:inputType="textMultiLine"
+            android:textSize="8sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView6" />
+
+        <TextView
+            android:id="@+id/textView6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="38dp"
+            android:layout_marginLeft="38dp"
+            android:layout_marginTop="2dp"
+            android:text=" Mauris mattis, tortor sit amet tempor vehicula."
+            android:textColor="#747474"
+            android:textSize="10sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView5" />
+
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="38dp"
+            android:layout_marginLeft="38dp"
+            android:layout_marginTop="5dp"
+            android:text="Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+            android:textColor="#747474"
+            android:textSize="10sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView4" />
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="49dp"
+            android:layout_height="18dp"
+            android:layout_marginStart="38dp"
+            android:layout_marginLeft="38dp"
+            android:layout_marginTop="16dp"
+            android:text="NOTE"
+            android:textColor="#000000"
+            android:textSize="12sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/constraintLayout5"
+        android:layout_width="0dp"
+        android:layout_height="93dp"
+        android:background="#FDFDFD"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.296"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/constraintLayout3"
+            android:layout_width="252dp"
+            android:layout_height="20dp"
+            android:layout_marginStart="38dp"
+            android:layout_marginLeft="38dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/dashline"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/Requisition">
+
+            <TextView
+                android:id="@+id/one"
+                android:layout_width="22dp"
+                android:layout_height="20dp"
+                android:background="@drawable/circleblue"
+                android:gravity="center"
+                android:text="1"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/Section-six"
+                android:layout_width="22dp"
+                android:layout_height="20dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginLeft="20dp"
+                android:background="@drawable/post_one"
+                android:gravity="center"
+                android:text="6"
+                app:layout_constraintStart_toEndOf="@+id/Section-five"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/Section-five"
+                android:layout_width="22dp"
+                android:layout_height="20dp"
+                android:layout_marginStart="25dp"
+                android:layout_marginLeft="25dp"
+                android:background="@drawable/post_one"
+                android:gravity="center"
+                android:text="5"
+                app:layout_constraintStart_toEndOf="@+id/section-four"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/section-four"
+                android:layout_width="22dp"
+                android:layout_height="20dp"
+                android:layout_marginStart="23dp"
+                android:layout_marginLeft="23dp"
+                android:background="@drawable/post_one"
+                android:gravity="center"
+                android:text="4"
+                app:layout_constraintStart_toEndOf="@+id/three"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/three"
+                android:layout_width="22dp"
+                android:layout_height="20dp"
+                android:layout_marginStart="27dp"
+                android:layout_marginLeft="27dp"
+                android:background="@drawable/post_one"
+                android:gravity="center"
+                android:text="3"
+                app:layout_constraintStart_toEndOf="@+id/two"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/two"
+                android:layout_width="22dp"
+                android:layout_height="20dp"
+                android:layout_marginStart="23dp"
+                android:layout_marginLeft="23dp"
+                android:background="@drawable/post_one"
+                android:gravity="center"
+                android:text="2"
+                app:layout_constraintStart_toEndOf="@+id/one"
+                app:layout_constraintTop_toTopOf="parent" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <TextView
+            android:id="@+id/Requisition"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="38dp"
+            android:layout_marginLeft="38dp"
+            android:layout_marginTop="10dp"
+            android:gravity="center"
+            android:text="REQUISITION"
+            android:textColor="#000000"
+            android:textSize="18sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <View
+            android:layout_width="0dp"
+            android:layout_height="1dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="16dp"
+            android:background="#747474"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/constraintLayout3" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
