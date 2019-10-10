@@ -57,7 +57,7 @@ public class RequisitionFormOne extends Fragment {
                 String name = jsonObject.optString("requester-name").toString();
                 String type = jsonObject.optString("request-type").toString();
 
-                data1 += "request-type= " + type + " \n ";
+                data1 +=  type + " \n ";
 
 
             }
@@ -88,7 +88,7 @@ public class RequisitionFormOne extends Fragment {
                 String name = jsonObject2.optString("requester-name").toString();
                 String type = jsonObject2.optString("request-type").toString();
 
-                data2 += "request-type= " + type + " \n ";
+                data2 +=  type + " \n ";
 
 
             }
@@ -120,7 +120,7 @@ public class RequisitionFormOne extends Fragment {
                 String name = jsonObject2.optString("requester-name").toString();
                 String type = jsonObject2.optString("request-type").toString();
 
-                data3 += "request-type= " + type + " \n ";
+                data3 += type + " \n ";
 
 
             }

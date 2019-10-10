@@ -19,14 +19,14 @@
             android:id="@+id/button"
             android:layout_width="79dp"
             android:layout_height="23dp"
-            android:layout_marginStart="112dp"
-            android:layout_marginLeft="112dp"
-            android:layout_marginTop="99dp"
+            android:layout_marginStart="120dp"
+            android:layout_marginLeft="120dp"
+            android:layout_marginTop="32dp"
             android:background="@drawable/buttonborder"
             android:text="NEXT->"
             android:textColor="#FFFFFF"
             app:layout_constraintStart_toEndOf="@+id/SaveDraft"
-            app:layout_constraintTop_toBottomOf="@+id/option2" />
+            app:layout_constraintTop_toBottomOf="@+id/radioButton3" />
 
         <TextView
             android:id="@+id/SaveDraft"
@@ -34,12 +34,12 @@
             android:layout_height="17dp"
             android:layout_marginStart="38dp"
             android:layout_marginLeft="38dp"
-            android:layout_marginTop="45dp"
+            android:layout_marginTop="35dp"
             android:text="SAVE DRAFT"
             android:textColor="#595959"
             android:textStyle="bold"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/radiobutton3" />
+            app:layout_constraintTop_toBottomOf="@+id/radioButton3" />
 
        <View
             android:layout_width="70dp"
@@ -55,69 +55,30 @@
             android:id="@+id/option3"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginStart="15dp"
-            android:layout_marginLeft="15dp"
-            android:layout_marginTop="25dp"
+            android:layout_marginTop="16dp"
             android:textColor="#747474"
             android:textSize="12sp"
-            app:layout_constraintStart_toEndOf="@+id/radiobutton3"
+            app:layout_constraintStart_toEndOf="@+id/radioButton3"
             app:layout_constraintTop_toBottomOf="@+id/option2" />
-
-        <TextView
-            android:id="@+id/radiobutton3"
-            android:layout_width="15dp"
-            android:layout_height="15dp"
-            android:layout_marginStart="38dp"
-            android:layout_marginLeft="38dp"
-            android:layout_marginTop="36dp"
-            android:background="@drawable/borderblack"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/radiobutton2" />
 
         <TextView
             android:id="@+id/option2"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginStart="15dp"
-            android:layout_marginLeft="15dp"
-            android:layout_marginTop="20dp"
+            android:layout_marginTop="24dp"
             android:textColor="#747474"
             android:textSize="12sp"
-            app:layout_constraintStart_toEndOf="@+id/radiobutton2"
+            app:layout_constraintStart_toEndOf="@+id/radioButton2"
             app:layout_constraintTop_toBottomOf="@+id/option1" />
-
-        <TextView
-            android:id="@+id/radiobutton2"
-            android:layout_width="15dp"
-            android:layout_height="15dp"
-            android:layout_marginStart="38dp"
-            android:layout_marginLeft="38dp"
-            android:layout_marginTop="32dp"
-            android:background="@drawable/borderblack"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/radiobutton1" />
 
         <TextView
             android:id="@+id/option1"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginStart="12dp"
-            android:layout_marginLeft="12dp"
-            android:layout_marginTop="30dp"
+            android:layout_marginTop="34dp"
             android:textColor="#747474"
             android:textSize="12sp"
-            app:layout_constraintStart_toEndOf="@+id/radiobutton1"
-            app:layout_constraintTop_toBottomOf="@+id/textView9" />
-
-        <TextView
-            android:id="@+id/radiobutton1"
-            android:layout_width="15dp"
-            android:layout_height="15dp"
-            android:layout_marginStart="38dp"
-            android:layout_marginLeft="38dp"
-            android:layout_marginTop="32dp"
-            android:background="@drawable/borderblack"
-            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/radioButton"
             app:layout_constraintTop_toBottomOf="@+id/textView9" />
 
         <TextView
@@ -211,6 +172,36 @@
             android:textSize="12sp"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
+
+        <RadioButton
+            android:id="@+id/radioButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="38dp"
+            android:layout_marginLeft="38dp"
+            android:layout_marginTop="30dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView9" />
+
+        <RadioButton
+            android:id="@+id/radioButton2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="38dp"
+            android:layout_marginLeft="38dp"
+            android:layout_marginTop="16dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/radioButton" />
+
+        <RadioButton
+            android:id="@+id/radioButton3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="38dp"
+            android:layout_marginLeft="38dp"
+            android:layout_marginTop="11dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/radioButton2" />
     </androidx.constraintlayout.widget.ConstraintLayout>
 
     <androidx.constraintlayout.widget.ConstraintLayout
