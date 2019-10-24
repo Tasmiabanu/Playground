@@ -1,0 +1,6 @@
+myFunction([
+   {
+      "display": "TASMIA"
+      
+      }
+    ])

@@ -1,0 +1,27 @@
+templates { 
+	color: white; 
+	background-color : gray; 
+	width: 100%; 
+} 
+heading { 
+	color:rgba(0, 255, 255, 0.459); 
+	font-size : 40px; 
+	/* background-color : powderblue;  */
+	margin-left: 37%;
+} 
+title, main, wish, name{ 
+	display : block; 
+	padding: 2%;
+	margin-left: 20%;
+} 
+title { 
+	font-size : 35px; 
+	font-weight : bold; 
+	padding: 5%;
+	margin-left: 30%;
+} 
+surprise{
+    padding: 4%;
+    margin-left: 20%;
+    color: lightgreen;
+}
