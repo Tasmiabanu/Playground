@@ -7,4 +7,11 @@
         <!-- <image>minion.jpg</image> -->
         <wish>WISH YOU A VERY HAPPY BIRTHDAY!!</wish> 
         <surprise>Did you know that Dhoni was also born today!!</surprise>
+
+        <tr>
+        <td align="right">Favorite number:</td>
+        <td><input type="text" id="favoriteNumber"></td>
+        <td>integer</td>
+        <td><textarea class="result" id="intAsJson" readonly></textarea></td>
+      </tr>
 </templates>

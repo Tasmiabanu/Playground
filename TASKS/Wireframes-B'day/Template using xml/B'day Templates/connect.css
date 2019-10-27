@@ -3,11 +3,27 @@ body{
     margin:0px;
     padding:0px;
 }
-
+.container {
+  position: relative;
+  font-family: Arial;
+}
 .style{
     font-style: italic;
-    font-size: 15px;
-    align-items: center;
-    padding: 40%;
-    
+    font-size: 20px;
+     
+}
+
+.text-block {
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+  background-color: gainsboro;
+  color: white;
+ 
+  padding-right: 320px;
+}
+.as{
+  margin-left: 34%;
+  color: rgb(226, 43, 195);
+  font-size: 25px;
 }

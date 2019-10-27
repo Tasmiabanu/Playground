@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?> 
 <?xml-stylesheet type="text/xsl" href="w3c.xsl"?> 
+<head> <script src="My_Module::js/Template.js" /></head>
 <templates> 
 
     <heading> Hey there</heading> 
@@ -9,4 +10,5 @@
     
         <wish> WISH YOU A VERY HAPPY BIRTHDAY!!</wish> 
         <surprise> Did you know that Dhoni was also born today!!</surprise>  
+        <name>[names]  </name>
 </templates>
