@@ -1,6 +1,0 @@
-myFunction([
-   {
-      "display": "TASMIA"
-      
-      }
-    ])
