@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+    
+<body>
+
+<p id="demo1"></p>
+<p id="demo2"></p>
+<p id="demo3"></p>
+<p id="demo4"></p>
+<p id="demo5"></p>
+
+<script>
+var text, parser, xmlDoc;
+
+text = "<names> <list>" +
+"<name1>TASMIA</name1>" +
+"<name2>SNEHAL</name2>" +
+"<name3>APEKSHA</name3>" +
+"<name4>NICK</name4>" +
+"<name5>JOHN</name5>" +
+"<name6>SPOO</name6>" +
+"</list></names>";
+
+parser = new DOMParser();
+xmlDoc = parser.parseFromString(text,"text/xml");
+
+document.getElementById("demo1").innerHTML=  
+xmlDoc.getElementsByTagName("name1")[0].childNodes[0].nodeValue;  
+
+document.getElementById("demo2").innerHTML=  
+xmlDoc.getElementsByTagName("name2")[0].childNodes[0].nodeValue;  
+
+document.getElementById("demo3").innerHTML=  
+xmlDoc.getElementsByTagName("name3")[0].childNodes[0].nodeValue;  
+
+document.getElementById("demo4").innerHTML=  
+xmlDoc.getElementsByTagName("name4")[0].childNodes[0].nodeValue;  
+
+document.getElementById("demo5").innerHTML=  
+xmlDoc.getElementsByTagName("name5")[0].childNodes[0].nodeValue;  
+
+</script>
+
+</body>
+</html>
