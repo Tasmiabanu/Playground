@@ -1,0 +1,27 @@
+body{
+    background-color:#F6F8F9;
+    margin:0px;
+    padding:0px;
+  }
+  .edge{
+    display:flex;
+    align-items:center;
+   
+   padding-right: 100px;
+   
+  }
+.a{
+  position: absolute;
+  margin-left: 5%;
+}
+  button {
+    background-color: #32BDD2;
+    color: white;
+    padding: 8px 20px;
+    margin: 5px 0;
+    border: none;
+    border-radius: 40px;
+    position: relative;
+    left: 20px;
+
+}

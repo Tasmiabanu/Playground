@@ -13,6 +13,9 @@ body{
      
 }
 
+.a{
+  width: 420px;
+}
 .text-block {
   position: absolute;
   bottom: 20px;

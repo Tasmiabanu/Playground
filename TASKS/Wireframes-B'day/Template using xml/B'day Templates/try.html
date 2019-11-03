@@ -1,23 +1,51 @@
 <!DOCTYPE html>
 <html>
+
+<head>
+  <title>FirstPage</title>
+  <link rel="stylesheet" type="text/css" href="try.css">
+</head>
+
 <body>
 
-        <img src="img1.jpg" width="100%" height="100%">
-<input type="text" id="myText" value="">
+  <img src="img1.jpg" width="50%" height="50%">
+  <p id="demo1"><b>TAP</b></p>
 
-<p>Type your name here</p>
+  <script>
+    document.getElementById("demo1").addEventListener("click", myFunction);
 
-<button onclick="myFunction()">Enter</button>
+    function myFunction() {
+      document.getElementById("demo1").innerHTML = "Hurray Its your B'day";
 
-<p id="demo"></p>
+    }
+  </script>
 
-<script>
-function myFunction() {
-  var x = document.getElementById("myText").value;
-  document.getElementById("demo").innerHTML = x;
-  
-}
-</script>
+  <p id="demo"><b>ONCE MORE</b></p>
+  <script>
+    document.getElementById("demo").addEventListener("click", myFunction);
+
+    function myFunction() {
+      document.getElementById("demo").innerHTML = "May your day be cheerful as always:)";
+
+    }
+  </script>
+
+  <div class="a">
+    <div class="edge">
+      <button type="submit" class="button" style="border-bottom: 1px solid rgb(0, 162, 255);"
+        onclick="loginFunction()">NEXT</button>
+      <script>
+        function loginFunction() {
+          window.location = "Ex.html";
+        }
+      </script>
+    </div>
+  </div>
+
+
+
+
 
 </body>
+
 </html>

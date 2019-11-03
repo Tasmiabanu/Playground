@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <style>
+    .container {
+      position: relative;
+      text-align: center;
+      color: white;
+    }
+
+    .bottom-left {
+      position: absolute;
+      bottom: 30%;
+      left: 16px;
+      font-size: 30px;
+      color: rgb(47, 161, 255);
+    }
+
+    .top-left {
+      position: absolute;
+      top: 8px;
+      left: 5%;
+      font-size: 30px;
+      color: rgb(255, 47, 175);
+    }
+
+    .top-right {
+      position: absolute;
+      top: 8px;
+      right: 16px;
+    }
+
+    .bottom-right {
+      position: absolute;
+      bottom: 8px;
+      right: 16px;
+    }
+
+    .centered {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+    }
+
+    .im {
+      margin-bottom: 25%;
+      margin-right: 120px;
+    }
+  </style>
+</head>
+
+<body>
+
+  <h2>YOUR DAY HAS COME</h2>
+  <p>ENJOY IT!!</p>
+
+  <div class="container">
+    <img src="img4.jpg" alt="Snow" style="width:70%;">
+    <div class="bottom-left">MAY YOU BE AMAZING AS YOU ARE!!!!</div>
+    <div class="top-left"><b>WISH YOU A VERY</b><br>
+      <b>HAPPY BIRTHDAY:)</b>
+    </div>
+    <img class="im" src="emoji2.jpg" alt="Snow" style="width:10%;">
+
+
+
+
+    <div class="top-right">Top Right</div>
+    <div class="bottom-right">Bottom Right</div>
+    <div class="centered"><img src="emoji1.jpg" alt="Snow" style="width:10%;">
+    </div>
+  </div>
+  <ul id="users"></ul>
+  <script>
+    let users = [
+      {
+        name: "person1",
+        age: 35
+      },
+      {
+        name: "TASMIA",
+        age: 21
+      },
+      {
+        name: "person3",
+        age: 29
+      },
+      {
+        name: "person4",
+        age: 29
+      },
+      {
+        name: "person5",
+        age: 54
+      }
+    ];
+    let output = '';
+    for (var i = 0; i < users.length; i++) {
+      console.log(users[i].name);
+
+      // output = users[1].name+users[1].age;
+
+      // to display all memebers
+      // output += '<li>'+users[i].name+'</li>';
+
+      output = '<li>' + users[1].name + '</li>';
+    }
+    document.getElementById('users').innerHTML = output;
+  </script>
+
+</body>
+
+</html>
