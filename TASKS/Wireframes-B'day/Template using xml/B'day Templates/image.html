@@ -10,26 +10,72 @@
       color: white;
     }
 
+    .flip-card {
+      background-color: transparent;
+      width: 300px;
+      height: 300px;
+      perspective: 1000px;
+    }
+
+    .flip-card-inner {
+      position: relative;
+      width: 100%;
+      height: 100%;
+      text-align: center;
+      transition: transform 0.6s;
+      transform-style: preserve-3d;
+      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0);
+    }
+
+    .flip-card:hover .flip-card-inner {
+      transform: rotateY(180deg);
+    }
+
+    .flip-card-front,
+    .flip-card-back {
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      backface-visibility: hidden;
+    }
+
+    .flip-card-front {
+      background-color: #bbb;
+      color: black;
+    }
+
+    .flip-card-back {
+      background-color: #29b995;
+      color: white;
+      width: 300px;
+      transform: rotateY(180deg);
+    }
+
     .bottom-left {
       position: absolute;
       bottom: 30%;
       left: 16px;
       font-size: 30px;
-      color: rgb(47, 161, 255);
+      color: rgb(47, 255, 141);
     }
 
     .top-left {
       position: absolute;
-      top: 8px;
+      top: 52px;
       left: 5%;
       font-size: 30px;
-      color: rgb(255, 47, 175);
+      color: rgb(255, 47, 134);
+    }
+
+    .color {
+      color: rgb(243, 170, 33);
     }
 
     .top-right {
       position: absolute;
-      top: 8px;
-      right: 16px;
+      top: 2px;
+      right: 340px;
+
     }
 
     .bottom-right {
@@ -38,11 +84,42 @@
       right: 16px;
     }
 
+    #mydiv {
+      position: absolute;
+      z-index: 9;
+      background-color: #f1f1f1;
+      text-align: center;
+      border: 1px solid #d3d3d3;
+    }
+
+    #mydivheader {
+      padding: 10px;
+      cursor: move;
+      z-index: 10;
+      background-color: #2196F3;
+      color: #fff;
+    }
+
     .centered {
       position: absolute;
       top: 50%;
       left: 50%;
       transform: translate(-50%, -50%);
+    }
+
+    .name {
+      margin-top: 40px;
+      font-size: 35px;
+      margin-left: 20px;
+      padding: 4%;
+      font-weight: bold;
+      color: rgb(166, 255, 0);
+    }
+
+    .gif {
+      position: absolute;
+      bottom: 50px;
+      right: 240px;
     }
 
     .im {
@@ -55,62 +132,151 @@
 <body>
 
   <h2>YOUR DAY HAS COME</h2>
-  <p>ENJOY IT!!</p>
+  <p>Just PLAY the audio button and enjoy the music!!</p>
+  <h3><b>Search in google to know the Events occured on your Birthday</b></h3>
+  <div>
+    <script async src="https://cse.google.com/cse.js?cx=000888210889775888983:pqb3ch1ewhg"></script>
 
-  <div class="container">
-    <img src="img4.jpg" alt="Snow" style="width:70%;">
-    <div class="bottom-left">MAY YOU BE AMAZING AS YOU ARE!!!!</div>
-    <div class="top-left"><b>WISH YOU A VERY</b><br>
-      <b>HAPPY BIRTHDAY:)</b>
+    <div class="gcse-searchbox-only"
+      data-resultsUrl="https://googlecustomsearch.appspot.com/elementv2/two-page_results_elements_v2.html?query=test">
     </div>
-    <img class="im" src="emoji2.jpg" alt="Snow" style="width:10%;">
-
-
-
-
-    <div class="top-right">Top Right</div>
-    <div class="bottom-right">Bottom Right</div>
-    <div class="centered"><img src="emoji1.jpg" alt="Snow" style="width:10%;">
+    <div class="flip-card">
+      <div class="flip-card-inner">
+        <div class="flip-card-front">
+          <img src="img1.jpg" alt="Avatar" style="width:500px;height:300px;">
+        </div>
+        <div class="flip-card-back">
+          <h1>TASMIA</h1>
+          <p><b>WISH YOU A VERY HAPPY BIRTHDAY!!!</b></p>
+          <p>MAY YOU BE AMAZING AS YOU ARE:)</p>
+          <p>MAY GOD BLESS YOU<br>
+            WITH ALL THE DESIRES YOU WISH FOR</p>
+        </div>
+      </div>
     </div>
+    <div class="container">
+      <img src="img1.jpg" alt="Snow" style="width:70%;">
+      <div class="bottom-left">MAY YOU BE AMAZING AS YOU ARE!!!!</div>
+      <div class="top-left"><b>WISH YOU A VERY</b><br>
+        <b>HAPPY BIRTHDAY:)</b>
+
+      </div>
+      <img class="im" src="emoji2.jpg" alt="Snow" style="width:10%;">
+
+      <div class="top-right"><button id="myBtn"><b>Your Day</b></button>
+        <div class="color">
+          <p id="demo"></p>
+
+          <script>
+            document.getElementById("myBtn").addEventListener("click", displayDate);
+
+            function displayDate() {
+              document.getElementById("demo").innerHTML = Date();
+            }
+          </script>
+        </div>
+        <div class="gif">
+          <img style="-webkit-user-select: none;margin: auto;cursor: zoom-in;"
+            src="https://www.funimada.com/assets/images/cards/big/bday-325.gif" width="200" height="200">
+        </div>
+
+      </div>
+      <iframe width="0" height="0" src="https://www.youtube.com/watch?v=bz5DKleXG9g&list=RDbz5DKleXG9g&start_radio=1"
+        frameborder="0" allowfullscreen></iframe>
+      <div class="centered">
+        <div class="name">
+          <ul id="users"></ul>
+          <script>
+            let users = [
+              {
+                name: "person1",
+                age: 35
+              },
+              {
+                name: "TASMIA",
+                age: 21
+              },
+              {
+                name: "person3",
+                age: 29
+              },
+              {
+                name: "person4",
+                age: 29
+              },
+              {
+                name: "person5",
+                age: 54
+              }
+            ];
+            let output = '';
+            for (var i = 0; i < users.length; i++) {
+              console.log(users[i].name);
+
+              // output = users[1].name+users[1].age;
+
+              // to display all memebers
+              // output += '<li>'+users[i].name+'</li>';
+
+              output = '<li>' + users[1].name + '</li>';
+            }
+            document.getElementById('users').innerHTML = output;
+          </script>
+        </div>
+      </div>
+    </div>
+    <!-- <div id="mydiv">
+    <div id="mydivheader">Click here to move</div>
+    <p>Move</p>
+    <p>this</p>
+    <p>DIV</p>
   </div>
-  <ul id="users"></ul>
-  <script>
-    let users = [
-      {
-        name: "person1",
-        age: 35
-      },
-      {
-        name: "TASMIA",
-        age: 21
-      },
-      {
-        name: "person3",
-        age: 29
-      },
-      {
-        name: "person4",
-        age: 29
-      },
-      {
-        name: "person5",
-        age: 54
+   -->
+    <script>
+      //Make the DIV element draggagle:
+      dragElement(document.getElementById("mydiv"));
+
+      function dragElement(elmnt) {
+        var pos1 = 0, pos2 = 0, pos3 = 0, pos4 = 0;
+        if (document.getElementById(elmnt.id + "header")) {
+          /* if present, the header is where you move the DIV from:*/
+          document.getElementById(elmnt.id + "header").onmousedown = dragMouseDown;
+        } else {
+          /* otherwise, move the DIV from anywhere inside the DIV:*/
+          elmnt.onmousedown = dragMouseDown;
+        }
+
+        function dragMouseDown(e) {
+          e = e || window.event;
+          e.preventDefault();
+          // get the mouse cursor position at startup:
+          pos3 = e.clientX;
+          pos4 = e.clientY;
+          document.onmouseup = closeDragElement;
+          // call a function whenever the cursor moves:
+          document.onmousemove = elementDrag;
+        }
+
+        function elementDrag(e) {
+          e = e || window.event;
+          e.preventDefault();
+          // calculate the new cursor position:
+          pos1 = pos3 - e.clientX;
+          pos2 = pos4 - e.clientY;
+          pos3 = e.clientX;
+          pos4 = e.clientY;
+          // set the element's new position:
+          elmnt.style.top = (elmnt.offsetTop - pos2) + "px";
+          elmnt.style.left = (elmnt.offsetLeft - pos1) + "px";
+        }
+
+        function closeDragElement() {
+          /* stop moving when mouse button is released:*/
+          document.onmouseup = null;
+          document.onmousemove = null;
+        }
       }
-    ];
-    let output = '';
-    for (var i = 0; i < users.length; i++) {
-      console.log(users[i].name);
-
-      // output = users[1].name+users[1].age;
-
-      // to display all memebers
-      // output += '<li>'+users[i].name+'</li>';
-
-      output = '<li>' + users[1].name + '</li>';
-    }
-    document.getElementById('users').innerHTML = output;
-  </script>
-
+    </script>
 </body>
 
 </html>

@@ -12,6 +12,11 @@ body{
       padding:0px;
 	  height:500px;
 }
+.gif{
+  position: absolute;
+     bottom: 40px;
+      right: 240px;
+}
 .templates { 
 	color: white; 
 	background-color : gray; 
@@ -69,8 +74,10 @@ display : block;
 			</style>
 			<body >
 				<img src="img1.jpg" width="50%" height="50%"/>
+
 				<div class="a">
 					<h1 align="center">Hurrayyy!!</h1>
+
 					<div class="templates">
 						<span class="title">Its your Birthday</span>
 						<img class="emoji1" src="emoji1.jpg" width="55px" height="60px"/>
@@ -86,9 +93,13 @@ display : block;
 						<img src="emoji2.jpg" width="41px" height="41px"/>
 						<span class="surprise">Did you know that Dhoni was also born today!!</span>
 						<img class="dhoni" src="dhoni.jpg" width="55px" height="55px"/>
+						
+						</div>
+						<div class="gif">
+							<img style="-webkit-user-select: none;margin: auto;cursor: zoom-in;" src="https://www.funimada.com/assets/images/cards/big/bday-325.gif" width="100" height="100"/>
+							</div>
 					</div>
-				</div>
-			</body>
-		</html>
-	</xsl:template>
-</xsl:stylesheet> 
+				</body>
+			</html>
+		</xsl:template>
+	</xsl:stylesheet> 
